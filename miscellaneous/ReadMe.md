@@ -3,6 +3,7 @@ AFRICA, a continent known for it’s beauty in nature, has an incredible remarka
 All this led to the creation of the website
 
 ## Features
+-index.html -> home page (entry point)
 
 ## Structure
 
@@ -16,6 +17,10 @@ All this led to the creation of the website
 - Added a multimedia for the "South africa" page, under Kruger National Park.
 - contact page  content added 
 - organisation history, mission and vision  added. under about us
+
+
+26/03/2026
+- added "eswatini" web page
 
 
 ## References
