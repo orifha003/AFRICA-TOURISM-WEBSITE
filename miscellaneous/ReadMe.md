@@ -3,8 +3,8 @@ AFRICA, a continent known for it’s beauty in nature, has an incredible remarka
 All this led to the creation of the website
 
 ## Features
--index.html -> home page (entry point)
-
+- index.html -> home page (entry point)
+- about.ihtml-> website background information
 ## Structure
 
 ## Installation/how to run
@@ -21,6 +21,8 @@ All this led to the creation of the website
 
 26/03/2026
 - added "eswatini" web page
+- footer content added in about page, contact page, services and south africa page
+- edits in vision and mission in about page 
 
 
 ## References
