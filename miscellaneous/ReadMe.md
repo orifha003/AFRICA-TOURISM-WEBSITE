@@ -36,6 +36,8 @@ All this led to the creation of the website
 - size of flag images of south africa, botswana and lesotho edited
 - four images added to images folder
 - images added in about us page 
+-  two images added in lesotho page 
+- footer added under lesotho page
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
