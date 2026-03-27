@@ -38,7 +38,8 @@ All this led to the creation of the website
 - images added in about us page 
 -  two images added in lesotho page 
 - footer added under lesotho page
-
+- namibia was replaced by zimbabwe 
+- 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg
