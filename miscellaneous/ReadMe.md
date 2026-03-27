@@ -28,6 +28,14 @@ All this led to the creation of the website
 27/03/2026
 - eswatini added navigation menu in services page
 - namibia file has been added under pages folder
+- logo added in navigation
+- header has been add in namibia page
+- sytle added in footer under about, contact, services and south africa pages
+- navigation and logo has been added under namibia page 
+- logo added in index,south africa, lesotho, botswana, contact and service pages
+- size of flag images of south africa, botswana and lesotho edited
+- four images added to images folder
+- images added in about us page 
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
@@ -48,5 +56,9 @@ All this led to the creation of the website
 
 - safari.com, 2022. safari.com. [Online] 
   Available at: https://www.safari.com/rewrite/cdn.prod.website-files.com/636e23f049cf12406b2feccd/6386cb83f4b309194cd7c98d_7_3-day-lion-sands-sabi-sand-safari.jpeg
+
+- Art, K. M. P., 2024. shutterstock. [Online] 
+  Available at: https://www.shutterstock.com/image-vector/sunset-wildlife-illustration-elephants-giraffes-birds-2523064363
+
 
 
