@@ -47,6 +47,9 @@ All this led to the creation of the website
 - edits in the safari adventure of botswana 
 -  multi- media added under botswana page 
 - footer added under botswana
+- enquiries file added 
+- footer added in enquiries page 
+- enqiuries linked in all pages 
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
