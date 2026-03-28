@@ -44,7 +44,10 @@ All this led to the creation of the website
 
 28/03/26
 - footer was added in zimbabwe page 
-- 
+- edits in the safari adventure of botswana 
+-  multi- media added under botswana page 
+- footer added under botswana
+
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg
