@@ -10,6 +10,16 @@ All this led to the creation of the website
 - enqiries.html -> communication 
 
 ## Structure
+index.html
+|
+|___pages
+|
+|___assets
+|
+|___miscellaneous
+|
+|___
+
 
 ## Installation/how to run
 
