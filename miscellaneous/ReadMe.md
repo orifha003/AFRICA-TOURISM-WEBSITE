@@ -5,6 +5,10 @@ All this led to the creation of the website
 ## Features
 - index.html -> home page (entry point)
 - about.ihtml-> website background information
+- services.html-> all services provided
+- contact.html -> contact details 
+- enqiries.html -> communication 
+
 ## Structure
 
 ## Installation/how to run
@@ -45,11 +49,14 @@ All this led to the creation of the website
 28/03/26
 - footer was added in zimbabwe page 
 - edits in the safari adventure of botswana 
--  multi- media added under botswana page 
+-  multi-media added under botswana page 
 - footer added under botswana
 - enquiries file added 
 - footer added in enquiries page 
-- enqiuries linked in all pages 
+- enqiuries links added in all pages 
+
+29/03/26
+- multi-media added under eswatini page 
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
