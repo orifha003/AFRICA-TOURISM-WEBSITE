@@ -10,16 +10,30 @@ All this led to the creation of the website
 - enqiries.html -> communication 
 
 ## Structure
-index.html
-|
-|___pages
-|
-|___assets
-|
-|___miscellaneous
-|
-|___
-
+africa-tourism-website 
+          |
+          |___assets
+          |     |__css
+          |     |__fonts 
+          |     |__imanges
+          |     |__js
+          |     |__media
+          |
+          |___miscellaneous
+          |         |__readMe.mg
+          |___pages      
+                |__about.html
+                |__botswana.hmtl 
+                |__contact.html 
+                |__enquires.html
+                |__eswatini.hmtl
+                |__lesotho.html
+                |__service.htlm
+                |__southAfrica.html
+                |__zimbabwe.html
+                |__about.html
+                
+          
 
 ## Installation/how to run
 
@@ -67,6 +81,9 @@ index.html
 
 29/03/26
 - multi-media added under eswatini page 
+
+30/03/26
+- links of social media platforms added footer in all pages 
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
