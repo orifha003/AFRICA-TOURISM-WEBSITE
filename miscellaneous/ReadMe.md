@@ -22,7 +22,7 @@ africa-tourism-website
           |___miscellaneous
           |         |__readMe.mg
           |___pages      
-                |__about.html
+                |__index.html
                 |__botswana.hmtl 
                 |__contact.html 
                 |__enquires.html
