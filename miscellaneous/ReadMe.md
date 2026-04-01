@@ -85,6 +85,9 @@ africa-tourism-website/
 30/03/26
 - links of social media platforms added footer in all pages 
 
+01/04/26
+- edits nav in the footer for all pages 
+
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg
