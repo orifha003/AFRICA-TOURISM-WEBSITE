@@ -10,29 +10,29 @@ All this led to the creation of the website
 - enqiries.html -> communication 
 
 ## Structure
-africa-tourism-website 
-          |
-          |___assets
-          |     |__css
-          |     |__fonts 
-          |     |__imanges
-          |     |__js
-          |     |__media
-          |
-          |___miscellaneous
-          |         |__readMe.mg
-          |___pages      
-                |__index.html
-                |__botswana.hmtl 
-                |__contact.html 
-                |__enquires.html
-                |__eswatini.hmtl
-                |__lesotho.html
-                |__service.htlm
-                |__southAfrica.html
-                |__zimbabwe.html
-                |__about.html
-                
+africa-tourism-website/
+|
+|__ assets/
+|   |__ css/
+|   |__ js/
+|   |__ fonts/
+|   |__ images/
+|   |__ media/
+|
+|__ pages/
+|   |__ index.html
+|   |__ about.html
+|   |__ contact.html
+|   |__ enquiries.html
+|   |__ service.html
+|   |__ south-africa.html
+|   |__ botswana.html
+|   |__ lesotho.html
+|   |__ eswatini.html
+|   |__ zimbabwe.html
+|
+|__ README.md
+
           
 
 ## Installation/how to run
