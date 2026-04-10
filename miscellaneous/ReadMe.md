@@ -88,6 +88,10 @@ africa-tourism-website/
 01/04/26
 - edits nav in the footer for all pages 
 
+10/04/26
+- alignment of tags under index and south africa pages 
+- addition of tags in 
+
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg
