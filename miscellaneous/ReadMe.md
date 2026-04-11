@@ -89,8 +89,11 @@ africa-tourism-website/
 - edits nav in the footer for all pages 
 
 10/04/26
-- alignment of tags under index and south africa pages 
-- addition of tags in 
+- alignment and addition of tags under index and south africa pages 
+
+11/04/26
+- 
+
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
