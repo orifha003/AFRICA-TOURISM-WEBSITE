@@ -94,6 +94,8 @@ africa-tourism-website/
 12/04/26
 - alignment of tags in services and lesotho
 - removal of class in south africa page
+- changes in image of index page 
+- changes in image of services page
 
 
 ## References
