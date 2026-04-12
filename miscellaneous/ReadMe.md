@@ -91,8 +91,9 @@ africa-tourism-website/
 10/04/26
 - alignment and addition of tags under index and south africa pages 
 
-11/04/26
-- 
+12/04/26
+- alignment of tags in services and lesotho
+- removal of class in south africa page
 
 
 ## References
