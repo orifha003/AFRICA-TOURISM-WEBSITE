@@ -101,7 +101,7 @@ africa-tourism-website/
 - alignment tags 
 
 17/04/26
-- 
+- style removed on footer under index
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
