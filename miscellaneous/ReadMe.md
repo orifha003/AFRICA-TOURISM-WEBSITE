@@ -13,6 +13,19 @@ TARGET AUDIENCE:
  This website has been designed for tourists and people who want to learn more about southern
  Africa.
 
+## Timeline and milestone
+
+STEPS:              |TASKS:	                                  |DURATION:
+Planning.           |Gathering content, mind-map.             | 1-week 
+                    |Layout-graphics.                         |	2-weeks 
+Development.	      |Coding-designing.	                      | 3-weeks 
+Testing.	          |Functionality,responsiveness, security.  | 2-weeks 
+Launch. 	          |Promote.	                                | 1-week 
+TOTAL		            |                                         |10-weeks 
+
+
+
+
 ## Features
 - index.html -> home page (entry point)
 - about.ihtml-> website background information
