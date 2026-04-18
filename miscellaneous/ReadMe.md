@@ -1,3 +1,7 @@
+## Student infomation 
+student number ---> ST10512842
+student name ----> mulovhedzi orifha vhutali 
+
 ## Website description
 ORGANISATION OVERVIEW:
 AFRICA, a continent known for it’s beauty in nature, has an incredible remarkable record of wildlife including the big five, many different cultures, marks of historical events and being rich in valuable minerals.  Having all this beauty, this makes it to be a place whereby attracts tourist all over the world, for them to witness the beauty of African and not to be just told or just hear about it. 
@@ -24,8 +28,6 @@ Launch. 	          |Promote.	                                | 1-week
 TOTAL		            |                                         |10-weeks 
 
 
-
-
 ## Features
 - index.html -> home page (entry point)
 - about.ihtml-> website background information
@@ -44,7 +46,7 @@ africa-tourism-website/
 |   |__ media/
 |
 |__ pages/
-|   |__ index.html
+|   |__ zimbabwe.html
 |   |__ about.html
 |   |__ contact.html
 |   |__ enquiries.html
@@ -53,8 +55,8 @@ africa-tourism-website/
 |   |__ botswana.html
 |   |__ lesotho.html
 |   |__ eswatini.html
-|   |__ zimbabwe.html
-|
+|   
+|__ index.html
 |__ README.md
 
           
