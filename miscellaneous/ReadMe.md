@@ -134,6 +134,7 @@ africa-tourism-website/
 - changes in logo in all pages 
 - multi-media added in assests under media folder 
 - media added under zimbabwe 
+- images added in miscellaneous folder 
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
