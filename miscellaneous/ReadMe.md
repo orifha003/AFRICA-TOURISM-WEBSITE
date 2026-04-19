@@ -4,14 +4,18 @@
 
 ## Website description
 ORGANISATION OVERVIEW:
+                      AFRICA UNCOVERED:
 AFRICA, a continent known for it’s beauty in nature, has an incredible remarkable record of wildlife including the big five, many different cultures, marks of historical events and being rich in valuable minerals.  Having all this beauty, this makes it to be a place whereby attracts tourist all over the world, for them to witness the beauty of African and not to be just told or just hear about it. 
 All this led to the creation of the website
 
-
+## Website goal and objective
+MISSION 
 The mission is to help tourists to get a virtual view of southern Africa before deciding on which country to explore.
+
+VISION 
 Our vision is to allow Africa to be known for its beauty. This website will also increase the number of tourists visiting Africa by promoting and encouraging the beauty of southern Africa.
       
-TARGET AUDIENCE:
+TARGET AUDIENCE
  This website has been designed for tourists and people who want to learn more about southern
  Africa.
 
@@ -153,6 +157,13 @@ africa-tourism-website/
 
 - Art, K. M. P., 2024. shutterstock. [Online] 
   Available at: https://www.shutterstock.com/image-vector/sunset-wildlife-illustration-elephants-giraffes-birds-2523064363
+
+- Seamartini, n.d. vectorstock. [Online] 
+  Available at: https://www.vectorstock.com/royalty-free-vectors/safari-animals-vectors
+  [Accessed 15 August 2015].
+- Tradition, V., n.d. stock.adobe. [Online] 
+  Available at: https://stock.adobe.com/za/images/african-animals-vector-poster-for-safari-adventure/166155507
+  [Accessed 13 January 2023].
 
 
 
