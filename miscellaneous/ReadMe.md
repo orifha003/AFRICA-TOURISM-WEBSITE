@@ -6,7 +6,7 @@
 ORGANISATION OVERVIEW:
                       AFRICA UNCOVERED:
 AFRICA, a continent known for it’s beauty in nature, has an incredible remarkable record of wildlife including the big five, many different cultures, marks of historical events and being rich in valuable minerals.  Having all this beauty, this makes it to be a place whereby attracts tourist all over the world, for them to witness the beauty of African and not to be just told or just hear about it. 
-All this led to the creation of the website
+All this led to the creation of the website AFRICA UNCOVERED.
 
 ## Website goal and objective
 MISSION:
@@ -135,6 +135,7 @@ africa-tourism-website/
 - multi-media added in assests under media folder 
 - media added under zimbabwe 
 - images added in miscellaneous folder 
+- closing tag div added in footer
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
