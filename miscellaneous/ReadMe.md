@@ -178,5 +178,18 @@ africa-tourism-website/
   Available at: https://stock.adobe.com/za/images/african-animals-vector-poster-for-safari-adventure/166155507
   [Accessed 13 January 2023].
 
+- Deuchle, D., 2020. victoriasProduction. [Online] 
+  Available at: https://youtu.be/H0LG5rOo_9w?si=nLzwNsmOFQJhMber
+  [Accessed 04 may 2020].
+
+- Hormeyr, R., 2018. RelaxationChannel. [Online] 
+  Available at: https://youtu.be/DWorPenlAKk?si=pCIZW1ZTcBJK4oQj
+  [Accessed 01 march 2018].
+
+- Robergg, 2020. worldwildhearts. [Online] 
+  Available at: https://youtu.be/o40hh1AL_PE?si=QxNzvLtFHfGmGrui
+  [Accessed 05 march 2020].
+
+
 
 
