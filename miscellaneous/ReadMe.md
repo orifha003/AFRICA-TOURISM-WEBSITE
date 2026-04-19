@@ -61,7 +61,32 @@ africa-tourism-website/
 |__ index.html
 |__ README.md
 
-          
+ ## Site map 
+HOME 
+|
+|__ABOUT US 
+|
+|___SERVICES
+|       |____BOTSWANA
+|       |       |__THE OKAVANGO DELTA
+|       |
+|       |____ESWATINI  
+|       |        |__HLANE ROYAL NATION PARK- LESOTHO
+|       |    
+|       |____ZIMBABWE
+|       |       |___VICTORIA FALLS
+|       |       |___MANA POOLS NATIONAL PARK
+|       |
+|       |____SOUTH AFRICA
+|       |         |__LION SAND GAME RESERVE
+|       |         |__ SABI SANDS GAME RESERVE
+|       |         |__ADDO ELEPHANT NATION PARK
+|       |
+|       |____LESOTHO
+|                |__PONY TREKKING SAFARI
+|               
+|___ENQUIRIES              
+|___CONTACTS
 
 ## Installation/how to run
 
