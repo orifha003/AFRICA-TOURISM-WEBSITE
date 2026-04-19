@@ -9,10 +9,10 @@ AFRICA, a continent known for it’s beauty in nature, has an incredible remarka
 All this led to the creation of the website
 
 ## Website goal and objective
-MISSION 
-The mission is to help tourists to get a virtual view of southern Africa before deciding on which country to explore.
+MISSION:
+Our mission is to help tourists to get a virtual view of southern Africa before deciding on which country to explor and be able to decide on to which country in southern part of africa they would like to visit.
 
-VISION 
+VISION:
 Our vision is to allow Africa to be known for its beauty. This website will also increase the number of tourists visiting Africa by promoting and encouraging the beauty of southern Africa.
       
 TARGET AUDIENCE
@@ -30,7 +30,7 @@ Launch. 	          |Promote.	                                | 1-week
 TOTAL		            |                                         |10-weeks 
 
 
-## Features
+## Features and functionality
 - index.html -> home page (entry point)
 - about.ihtml-> website background information
 - services.html-> all services provided
@@ -161,9 +161,10 @@ africa-tourism-website/
 - Seamartini, n.d. vectorstock. [Online] 
   Available at: https://www.vectorstock.com/royalty-free-vectors/safari-animals-vectors
   [Accessed 15 August 2015].
+
 - Tradition, V., n.d. stock.adobe. [Online] 
   Available at: https://stock.adobe.com/za/images/african-animals-vector-poster-for-safari-adventure/166155507
   [Accessed 13 January 2023].
 
-
+- 
 
