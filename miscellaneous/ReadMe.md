@@ -1,16 +1,14 @@
 ## Student infomation 
-student number ---> ST10512842
-student name ----> mulovhedzi orifha vhutali 
+- student number ---> ST10512842
+- student name ----> mulovhedzi orifha vhutali 
 
 ## Website description
 ORGANISATION OVERVIEW:
 AFRICA, a continent known for it’s beauty in nature, has an incredible remarkable record of wildlife including the big five, many different cultures, marks of historical events and being rich in valuable minerals.  Having all this beauty, this makes it to be a place whereby attracts tourist all over the world, for them to witness the beauty of African and not to be just told or just hear about it. 
 All this led to the creation of the website
 
-MISSION:
-The mission is to help tourists to get a virtual view of southern Africa before deciding on which country to explore.
 
-VISION:
+The mission is to help tourists to get a virtual view of southern Africa before deciding on which country to explore.
 Our vision is to allow Africa to be known for its beauty. This website will also increase the number of tourists visiting Africa by promoting and encouraging the beauty of southern Africa.
       
 TARGET AUDIENCE:
