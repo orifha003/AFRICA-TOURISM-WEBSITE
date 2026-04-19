@@ -166,5 +166,16 @@ africa-tourism-website/
   Available at: https://stock.adobe.com/za/images/african-animals-vector-poster-for-safari-adventure/166155507
   [Accessed 13 January 2023].
 
-- 
+- Fernando2408, 2019. Wallpaper cave. [Online] 
+  Available at: https://wallpapercave.com/eswatini-flag-wallpapers
+
+- Seamartini, n.d. vectorstock. [Online] 
+  Available at: https://www.vectorstock.com/royalty-free-vectors/safari-animals-vectors
+  [Accessed 15 August 2015].
+
+- Tn, V., n.d. stock.adobe. [Online] 
+  Available at: https://stock.adobe.com/za/images/african-animals-vector-poster-for-safari-adventure/166155507
+  [Accessed 13 January 2023].
+
+
 
