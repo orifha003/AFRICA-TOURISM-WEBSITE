@@ -164,6 +164,8 @@ HOME
 - images added in miscellaneous folder 
 - closing tag div added in footer
 
+20/04/26
+- images added in miscellaneous folder
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg
