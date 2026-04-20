@@ -10,7 +10,7 @@ All this led to the creation of the website AFRICA UNCOVERED.
 
 ## Website goal and objective
 MISSION:
-Our mission is to help tourists to get a virtual view of southern Africa before deciding on which country to explor and be able to decide on to which country in southern part of africa they would like to visit.
+Our mission is to help tourists to get a virtual view of southern Africa before deciding on which country to explore and be able to decide on to which country in southern part of africa they would like to visit.
 
 VISION:
 Our vision is to allow Africa to be known for its beauty. This website will also increase the number of tourists visiting Africa by promoting and encouraging the beauty of southern Africa.
@@ -49,17 +49,19 @@ africa-tourism-website/
 |
 |__ pages/
 |   |__ zimbabwe.html
-|   |__ about.html
-|   |__ contact.html
-|   |__ enquiries.html
-|   |__ service.html
 |   |__ south-africa.html
-|   |__ botswana.html
+|   |__botswana.html
 |   |__ lesotho.html
 |   |__ eswatini.html
 |   
+|__services.html  
+|__contact.html 
+|__enquire.html 
+|__ about.html
 |__ index.html
-|__ README.md
+|
+|__miscellaneous/
+    |__ README.md
 
  ## Site map 
 HOME 
@@ -85,19 +87,8 @@ HOME
 |       |____LESOTHO
 |                |__PONY TREKKING SAFARI
 |               
-|___ENQUIRIES              
-|___CONTACTS
-
-## WireFrame
-<body>
-  <header>
-      <nav></nav>
-  </header>
-    <main>
-      <section></section>
-    </main>
-    <footer></footer>
-</body>
+|___CONTACTS             
+|___ENQUIRIES 
 
 ## Installation/how to run
 
