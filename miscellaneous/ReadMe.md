@@ -88,6 +88,17 @@ HOME
 |___ENQUIRIES              
 |___CONTACTS
 
+## WireFrame
+<body>
+  <header>
+      <nav></nav>
+  </header>
+    <main>
+      <section></section>
+    </main>
+    <footer></footer>
+</body>
+
 ## Installation/how to run
 
 ## Dependencies
