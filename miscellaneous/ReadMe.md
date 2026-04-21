@@ -64,31 +64,34 @@ africa-tourism-website/
     |__ README.md
 
  ## Site map 
-HOME 
-|
-|__ABOUT US 
-|
-|___SERVICES
-|       |____BOTSWANA
-|       |       |__THE OKAVANGO DELTA
-|       |
-|       |____ESWATINI  
-|       |        |__HLANE ROYAL NATION PARK- LESOTHO
-|       |    
-|       |____ZIMBABWE
-|       |       |___VICTORIA FALLS
-|       |       |___MANA POOLS NATIONAL PARK
-|       |
-|       |____SOUTH AFRICA
-|       |         |__LION SAND GAME RESERVE
-|       |         |__ SABI SANDS GAME RESERVE
-|       |         |__ADDO ELEPHANT NATION PARK
-|       |
-|       |____LESOTHO
-|                |__PONY TREKKING SAFARI
-|               
-|___CONTACTS             
-|___ENQUIRIES 
+
+                            HOME 
+______________________________|_________________________________                                  
+    |                 |               |                       |
+ABOUT US          SERVICES          CONTACTS              ENQUIRIES 
+                      |
+______________________|______________________________________________________                     
+    |             |               |                   |                  |
+BOTSWANA         ESWATINI       ZIMBABWE             SOUTH              LESOTHO
+    |               |                |___VICTORIA     AFRICA                 |__PONY
+    |_ THE          |_ HLANE         |     FALLS           |__KRUGER            TREKKING
+    OKAVANGO            ROYAL        |___MANA              |  NATIONAL            SAFARI
+    DELTA               NATION           POOLS             |    PARK
+                        PARK             NATIONAL          |__LION 
+                                                           |   SAND 
+                                                           |    GAME
+                                                           |   RESERVE
+                                                           |    PARK
+                                                           |__ADDO
+                                                           |  ELEPHANT
+                                                           |   NATION
+                                                           |    PARK
+                                                           |__SABI 
+                                                           |   SANDS 
+                                                           |    GAME
+                                                           |    RESERVE
+
+
 
 ## Installation/how to run
 
@@ -166,6 +169,7 @@ HOME
 
 20/04/26
 - images added in miscellaneous folder
+
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg
