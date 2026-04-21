@@ -63,34 +63,6 @@ africa-tourism-website/
 |__miscellaneous/
     |__ README.md
 
- ## Site map 
-
-                            HOME 
-______________________________|_________________________________                                  
-    |                 |               |                       |
-ABOUT US          SERVICES          CONTACTS              ENQUIRIES 
-                      |
-______________________|______________________________________________________                     
-    |             |               |                   |                  |
-BOTSWANA         ESWATINI       ZIMBABWE             SOUTH              LESOTHO
-    |               |                |___VICTORIA     AFRICA                 |__PONY
-    |_ THE          |_ HLANE         |     FALLS           |__KRUGER            TREKKING
-    OKAVANGO            ROYAL        |___MANA              |  NATIONAL            SAFARI
-    DELTA               NATION           POOLS             |    PARK
-                        PARK             NATIONAL          |__LION 
-                                                           |   SAND 
-                                                           |    GAME
-                                                           |   RESERVE
-                                                           |    PARK
-                                                           |__ADDO
-                                                           |  ELEPHANT
-                                                           |   NATION
-                                                           |    PARK
-                                                           |__SABI 
-                                                           |   SANDS 
-                                                           |    GAME
-                                                           |    RESERVE
-
 
 
 ## Installation/how to run
