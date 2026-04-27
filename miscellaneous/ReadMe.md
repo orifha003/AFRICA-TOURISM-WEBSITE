@@ -145,6 +145,18 @@ africa-tourism-website/
 21/04/26
 - comments added in all pages 
 
+27/04/26
+- stlye.css added under assets folder in css folder
+- main image changes 
+- backgound color added on body 
+- background image add on body
+- background color added in navigation 
+- logo size and radius changed 
+- background color added in footer 
+- font style added in footer
+- font size edited in introduction
+
+
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg
