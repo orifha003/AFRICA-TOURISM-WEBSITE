@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
 }
 
-/*the index navigation*/
+/*the all navigation*/
 .nav-links{
     display: flex;
     justify-content: flex-end;
@@ -64,12 +64,13 @@ body{
     margin-left: 14%;
     font-style: italic;
     font-weight: 500;
+    color: black;
 }
 
 .mini-intro{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 3%;
-
+    color: black;
 }
 
 #intro-01{
@@ -78,7 +79,6 @@ body{
 
 #intro-02{
     margin-left: 25%;
-
 }
 
 
@@ -91,16 +91,69 @@ body{
 .footer-details{
     margin-left: 36%;
     font-style:oblique;
+    color: black;
 }
 
 .footer-text{
     margin-left: 25%;
     font-style: oblique;
+    color: black;
 }
 .footer-name{
     margin-left:40%;
     font-style: oblique;
+    color: black;
 }
 
+/* services page */
+
+.service-sum{
+    margin-top: 50px;
+}
+
+#history{
+    margin: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top:4% ;
+    color:rgb(190, 133, 111);
+    display: flex;
+}
+
+.history-container{
+    background-color: rgb(56, 30, 30);
+    padding: 5px;
+}
+
+.history-image img{
+    margin-top: 20px;
+    margin-left: 5%;
+
+}
+
+.overall-history{
+    background-color: rgba(56, 30, 30, 0.489);
+
+}
+
+.history-content{
+    margin-top: ;
+}
+
+#mission{
+    margin: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top:4% ;
+    color:rgb(190, 133, 111);
+    display: flex;
+}
+.mission-title{
+    background-color: rgb(56, 30, 30);
+    padding: 1px;
+    
+}
 
 
