@@ -156,6 +156,11 @@ africa-tourism-website/
 - font style added in footer
 - font size edited in introduction
 
+28/04/26
+- background on footer and navigatio added in services pages
+- horizontal layout of navigation bar in services 
+- added image in the center of the servcies landing page
+
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 

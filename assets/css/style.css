@@ -181,6 +181,7 @@ body{
     border-radius: 50%;
     margin-left: 20%;
     margin-top:29px;
+    margin-bottom: 20px;
 
 }
 
@@ -200,5 +201,48 @@ body{
 }
 
 #service-03{
+    margin-left: 30%;
+}
+
+/*contact form */
+.contact-form{
+    margin-left: 40%;
+    background-color: rgba(255, 228, 196, 0.365);
+    margin-top: 43px;
+    margin-bottom: 43px;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+.contact-heading{
+    margin-left: 30%;
+    font-style: italic;
+    color: rgb(111, 55, 55);
+}
+
+.mini-message{
+    margin-left: 24%;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.detali-heading{
+    margin-top: 20px;
+    margin-left: 30%;
+    color: rgb(111, 55, 55);
+    font-style: italic;
+}
+.detail-info{
+    margin-left: 20%;
+    margin-top:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.send-message{
+    margin-left: 25%;
+    margin-top: 20px;
+    color: rgb(111, 55, 55);
+    font-style: italic;
+}
+
+.fill-form{
     margin-left: 30%;
 }

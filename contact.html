@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>CONTACT</title>
 </head>
 <body>
     <!-- HEADER SECTION-->
-     <header>
+     <header class="navigation">
       <!--LOGO IMAGE-->
-            <div>
-               <a href="./index.html"><img src="./assets/images/LOGO -SAFARI .jpeg"></a>
+            <div class="logo">
+               <a href="./index.html"><img src="./assets/images/LOGO -SAFARI .jpeg" alt="logo image" width="5%" height="0%"></a>
             </div>
 
       <!--NAVIGATION SECTION-->
-            <div>
-               </nav>
-                     <ul>
+               <nav class="nav-Bar" >
+
+                     <ul class="nav-links">
                         <li><a href="./index.html">HOME</a> </li>
                         <li><a href="./about.html">ABOUT US</a></li>
                         <li><a href="./service.html">SERVICES</a> </li>
@@ -24,66 +25,87 @@
                         <li><a href="./enquiries.html">ENQUIRIES</a> </li>
                      </ul>
                </nav>
-            </div>
       </header>
     <!-- MAIN SECTION-->
     <main>
-        <section>
+        <section class="contact-form">
+            <div class="contact-heading">
                 <h1>Contact Us</h1>
+            </div>
+            <div class="mini-message">
                 <p>We would love to hear from you!</p>
-
+            </div>
+                
             <!--CONTACT DETAIL -->
-            
-                <h2>Our Details</h2>
+            <div class="detali-heading">
+                <h1>Our Details</h1>
+            </div>
+
+            <div class="detail-info">
                 <p>Email: info@africaUNCOVERED.gmail.com</p>
                 <p>Phone: +27 132 3337 985</p>
                 <p>Address: Polokwane, South Africa</p>
-            </section>
+            </div>
 
             <!--CONTACT FORM -->
-            <section>
-                <h2>Send Us a Message</h2>
+            <div class="send-message">
+                <h1>Send Us a Message</h1>
+            </div>
 
-                <form>
+                <form class="fill-form">
                     
+                    <div>
                     <!-- FULL NAME -->
-                    <label for="name">Full Name:</label><br>
-                    <input type="text"  name="name" required><br><br>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text"  name="name" required><br><br>
+                    </div>
 
-                    <!-- EMAIL -->
-                    <label for="email">Email Address:</label><br>
-                    <input type="email" name="email" required><br><br>
+                    <div>
+                        <!-- EMAIL -->
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" name="email" required><br><br>
+                    </div>
 
-                    <!-- SUBJECT -->
-                    <label for="subject">Subject:</label><br>
-                    <input type="text" name="subject"><br><br>
-
+                    <div>
+                        <!-- SUBJECT -->
+                        <label for="subject">Subject:</label><br>
+                        <input type="text" name="subject"><br><br>
+                    </div>
+                   
+                    <div>
                     <!-- MESSAGE-->
-                    <label for="message">Message:</label><br>
-                    <textarea  name="message" required></textarea><br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea  name="message" required></textarea><br><br>
+                    </div>
 
+                    <div >
                     <!-- SUBMIT -->
-                    <button type="submit">Send Message</button>
-
+                        <button type="submit">Send Message</button>
+                    </div>
+                    
                 </form>
             </section>
         </main>
 
     <!--FOOTER SECTION-->
-    <footer>
-        <div>
+    <footer id="footer">
+         <div class="footer-details">
             &copy 2026 AFRICA UNCOVERED. All rights reserved.
-        </div>
-        
-        <div>
+         </div>
+    
+         <div class="footer-text">
             <p>
-                EXPLORE THE BEAUTY OF THE AFRICA COUNTINENT IN THE SOUTHERN PART OF AFRICA.
+               EXPLORE THE BEAUTY OF THE AFRICA COUNTINENT IN THE SOUTHERN PART OF AFRICA.
             </p>
-        </div>
-        
-        <div>
-            Contact us: info@africaUNCOVERED.com | +27 132 3337 985
-        </div>
-    </footer>
+         </div>
+
+         <div class="footer-details">
+           <p> Contact us: info@africaUNCOVERED.com | +27 132 3337 985 
+         </div>
+
+         <div class="footer-name">
+            Founder and Management: ms Mulovhedzi O.N
+         </div>
+      </footer>
 </body>
 </html>
