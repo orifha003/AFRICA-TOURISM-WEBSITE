@@ -15,17 +15,24 @@ body{
 
 .navigation{
     background-color: rgb(56, 30, 30);
+    padding: 10px;
 }
 .nav-links{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-en;
     gap: 3rem;
     padding: 20px;
+    background-color:rgba(128, 79, 44, 0.445);
+    margin-left: 50%;
+    margin-right: 30px;
+    border-radius: 35px;
+    text-decoration: solid;
+    
 }
 
 .nav-Bar li {
     display: flex;
-    justify-content: flex-end;
+    justify-content: fex-end;
     position: relative;
 
 }
@@ -33,19 +40,21 @@ body{
 
 .nav-Bar li a{
     display: flex;
-    background-color: rgb(56, 30, 30);
     text-decoration: none;
-    color: black;
+    color: black;  
     
 }
 
 .nav-Bar li  :hover{
-    color: chocolate;
+    background-color:  rgb(56, 30, 30);
+    color: rgba(210, 105, 30, 0.537);
     text-shadow: 10px;
+    border-radius: 5px;
+    box-shadow:0 0 25px rgb(143, 70, 31);
 }
 
-/* logo image*/
 
+/* logo image*/
 .logo a img{
     border-radius: 10%;
     margin-top: 2%;
@@ -59,8 +68,9 @@ body{
     margin-left: 25%;
 }
 
+
 /* heading*/
-#title{
+.title{
     font-size: 40px;
     margin-left: 14%;
     font-style: italic;
@@ -83,9 +93,8 @@ body{
 }
 
 
-
 /*the footer */
-#footer{
+.footer{
     background-color: rgb(56, 30, 30);
 }
 
@@ -107,7 +116,6 @@ body{
 }
 
 /* services page */
-
 .service-sum{
     margin-top: 50px;
 }
@@ -185,9 +193,9 @@ body{
 
 }
 
-#service-heading{
+.service-heading{
     margin-left: 25%;
-    margin-top: 50%;
+    margin-top: 20px;
     font-size: 50px;
     font-style:italic;
 }
@@ -206,12 +214,13 @@ body{
 
 /*contact form */
 .contact-form{
-    margin-left: 40%;
-    background-color: rgba(255, 228, 196, 0.365);
+    background-color: rgba(97, 32, 10, 0.632);
     margin-top: 43px;
+    margin-left: 25%;
     margin-bottom: 43px;
     margin-right: 30%;
-    border-radius: 20px;
+    border-radius: 25px;
+    max-height: max-content;
 }
 .contact-heading{
     margin-left: 30%;
@@ -244,5 +253,30 @@ body{
 }
 
 .fill-form{
-    margin-left: 30%;
+    margin-left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-fullname{
+    margin-top: 20px;
+
+}
+.contact-email{
+    margin-top: 20px;
+}
+.contact-subject{
+    margin-top: 20px;
+}
+.contact-message{
+    margin-top: 20px;
+}
+
+.contact-button{
+    margin-left: 70%;
+}
+
+.contact-button :hover {
+    color:rgb(111, 55, 55);
+    background-color: rgba(207, 174, 174, 0.445);
+   box-shadow:0 0 25px darkgoldenrod;
 }
