@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/stylecss">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>CONTACT</title>
 </head>
 <body>
@@ -29,16 +30,20 @@
     <!-- MAIN SECTION-->
     <main>
         <section class="contact-form">
+        <div>
             <div class="contact-heading">
-                <h1>Contact Us</h1>
+                <h1>Contact Us:</h1>
             </div>
+
             <div class="mini-message">
                 <p>We would love to hear from you!</p>
             </div>
+        
                 
             <!--CONTACT DETAIL -->
-            <div class="detali-heading">
-                <h1>Our Details</h1>
+        
+             <div class="detali-heading">
+                <h1>Our Details:</h1>
             </div>
 
             <div class="detail-info">
@@ -47,43 +52,43 @@
                 <p>Address: Polokwane, South Africa</p>
             </div>
 
+        </div>
+            <div>
+                <div class="fill-form">
+                    <h1 class="message-title">Send a message </h1>
+                </div>
             <!--CONTACT FORM -->
-            <div class="send-message">
-                <h1>Send Us a Message</h1>
-            </div>
+                <form>
 
-                <form class="fill-form">
-                    
-                    <div class="contact-fullname">
                     <!-- FULL NAME -->
+                    <div class="contact-fullname">
                         <label for="name">Full Name:</label>
                         <input type="text"  name="name" required>
+                        <i class="fa-solid fa-circle-user"></i>
                     </div>
 
+                    <!-- EMAIL -->
                     <div class="contact-email">
-                        <!-- EMAIL -->
-                        <label for="email">Email Address:</label>
+                        <label for="email">Email:</label>
                         <input type="email" name="email" required>
-                    </div>
-
-                    <div class="contact-subject">
-                        <!-- SUBJECT -->
-                        <label for="subject">Subject:</label>
-                        <input type="text" name="subject">
+                        <i class="fa-solid fa-envelope"></i>
                     </div>
                    
-                    <div class="contact-message">
                     <!-- MESSAGE-->
+                    <div class="contact-message">
                         <label for="message">Message:</label>
-                        <textarea  name="message" required></textarea><br><br>
+                        <textarea  name="message" required></textarea>
+                        <i class="fa-solid fa-message"></i>
                     </div>
 
-                    <div class="contact-button" >
                     <!-- SUBMIT -->
+                    <div class="contact-button" >
                         <button type="submit">Send Message</button>
                     </div>
                     
                 </form>
+            </div>
+                
             </section>
         </main>
 

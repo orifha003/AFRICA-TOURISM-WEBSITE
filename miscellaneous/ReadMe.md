@@ -161,6 +161,9 @@ africa-tourism-website/
 - horizontal layout of navigation bar in services 
 - added image in the center of the servcies landing page
 
+02/05/26
+- navigation bar added on in contact and enquiries pages
+- navigation bar deco added in south africa page under services 
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
