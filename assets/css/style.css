@@ -209,9 +209,64 @@ body{
 }
 
 #service-03{
-    margin-left: 30%;
+    margin-left: 30px;
 }
 
+/* about south africa*/
+
+.sa-title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.about-southafrica{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap:10px;
+}
+
+.sa-flag{
+    margin-top: 10px;
+    height: max-content;
+    margin-left: 10px;
+}
+
+.sa-paragraph{
+    margin-top: 10%;
+
+}
+
+.safari-title{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/*about kruger national park */
+.heading{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+    margin-top: 30px;
+}
+.content{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 10px;
+}
+
+.media{
+    margin-top: 10px;
+    width: 180%;
+    height: 200%;
+    margin-left: 40px;
+}
+
+ 
 /*contact form */
 .contact-form{
     display: grid;
@@ -264,6 +319,7 @@ body{
     color: rgb(56, 6, 6);
     font-style: italic;
 }
+
 .lable{
     border: none;
     border-bottom: 2px solid #555;
