@@ -104,6 +104,174 @@ body{
     margin-left: 25%;
 }
 
+
+
+
+
+.service-sum{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    padding: 100px;
+    margin: 11px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(179, 71, 71);
+    background-color: 0px 4px 15px rgba(224, 102, 102, 0.92);
+}
+
+.service-sum p{
+    font-size: 20px;
+    max-width: 900px;
+    margin: auto;
+    font-weight: 500;
+}
+
+/*main content*/
+
+.main-container{
+    background-color: #432727;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/*heading styling*/
+
+.history{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #1b5e20;
+    position: relative;
+}
+
+.mission{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #1b5e20;
+    position: relative;
+}
+
+.vision-title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #1b5e20;
+    position: relative;
+}
+
+.history::after{
+    width: 80px;
+    height: 4px;
+    background-color: #ff9800;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.mission::after{
+    width: 80px;
+    height: 4px;
+    background-color: #ff9800;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.vision-title::after{
+    width: 80px;
+    height: 4px;
+    background-color: #ff9800;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/*image stlying*/
+
+.history-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.mission-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.vision-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.history-image img{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.mission-image img{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.vision-image img{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.history-image img:hover{
+    transform: scale(1.03);
+}
+
+.mission-image img:hover{
+    transform: scale(1.03);
+}
+
+.vision-image img:hover{
+    transform: scale(1.03);
+}
+
+/*content text*/
+
+.history-content{
+    text-align: center;
+    padding: 10px 20px;
+}
+.mission-content{
+    text-align: center;
+    padding: 10px 20px;
+}
+.vision-content{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.history-content p{
+    font-size: 18px;
+    color: #555;
+}
+.mission-content {
+    font-size: 18px;
+    color: #0d0b0b;
+}
+.vision-content p{
+    font-size: 18px;
+    color: #555;
+}
+
+
+
 /* the footer section */
 .footer{
     background: rgb(56, 30, 30);
@@ -539,7 +707,6 @@ form{
 }
 
 /* textarea*/
-
 .contact-message textarea{
     min-height: 140px;
     resize: vertical;
@@ -575,7 +742,6 @@ form{
 
 
 /* button */
-
 .contact-button button{
     width: 100%;
     padding: 15px;
@@ -592,7 +758,6 @@ form{
 }
 
 /* button effect */
-
 .contact-button button:hover{
     transform: translateY(-3px);
     background: linear-gradient(135deg,#713d2c,#b07a68);
