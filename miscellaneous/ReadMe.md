@@ -165,6 +165,7 @@ africa-tourism-website/
 - navigation bar added on in contact and enquiries pages
 - navigation bar deco added in south africa page under services 
 
+
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 
   Available at: https://www.travelplusstyle.com/wp-content/gallery/lion-sands-private-game-reserve/fisheaglevillapoolfiredeck-060338.jpg

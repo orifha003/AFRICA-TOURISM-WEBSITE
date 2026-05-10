@@ -173,7 +173,7 @@ body{
     margin-left: 30px;
 }
 
-/* all countries*/
+/* ALL COUNTRIES*/
 
 /* coutries name */
 .title{
@@ -269,7 +269,7 @@ body{
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* FLAG IMAGE */
+/* flags images */
 .flag{
     display: flex;
     justify-content: center;
@@ -339,11 +339,15 @@ body{
 }
 
 /* paragraph content */
-.content p{
+.content {
     font-size: 1rem;
     line-height: 2;
     color: #444;
     text-align: justify;
+}
+.about-safari{
+    color: #3a1d15;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
 /* media and video section */
@@ -394,7 +398,6 @@ body{
 }
 
 /* left side */
-
 .contact-heading {
     font-size: 1rem;
     color: #9a553e;
@@ -454,8 +457,7 @@ body{
 }
 
 
-/*FORM CONTAINER*/
-
+/*form section*/
 form{
     margin-top: 25px;
     background: rgba(103, 13, 13, 0.285);
@@ -502,7 +504,6 @@ form{
 }
 
 /* inputs */
-
 .contact-fullname input{
     width: 100%;
     padding: 14px 50px 14px 15px;
