@@ -27,7 +27,6 @@ body{
 }
 
 /* logo image */
-
 .logo img{
     width: 75px;
     height: 75px;
@@ -42,7 +41,6 @@ body{
 }
 
 /* nav links */
-
 .nav-links{
     display: flex;
     align-items: center;
@@ -105,9 +103,6 @@ body{
 }
 
 
-
-
-
 .service-sum{
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     padding: 100px;
@@ -126,9 +121,8 @@ body{
 }
 
 /*main content*/
-
 .main-container{
-    background-color: #432727;
+    background-color: #4327278c;
     padding: 40px;
     border-radius: 20px;
     margin-top: 40px;
@@ -136,12 +130,11 @@ body{
 }
 
 /*heading styling*/
-
 .history{
     text-align: center;
     font-size: 35px;
     margin-bottom: 30px;
-    color: #1b5e20;
+    color: #601c07;
     position: relative;
 }
 
@@ -149,7 +142,7 @@ body{
     text-align: center;
     font-size: 35px;
     margin-bottom: 30px;
-    color: #1b5e20;
+    color: #5e281b;
     position: relative;
 }
 
@@ -157,7 +150,7 @@ body{
     text-align: center;
     font-size: 35px;
     margin-bottom: 30px;
-    color: #1b5e20;
+    color: #5e391b;
     position: relative;
 }
 
@@ -166,7 +159,7 @@ body{
     height: 4px;
     background-color: #ff9800;
     display: block;
-    margin: 10px auto;
+    margin: 10px ;
     border-radius: 10px;
 }
 
@@ -175,7 +168,7 @@ body{
     height: 4px;
     background-color: #ff9800;
     display: block;
-    margin: 10px auto;
+    margin: 10px ;
     border-radius: 10px;
 }
 
@@ -184,12 +177,11 @@ body{
     height: 4px;
     background-color: #ff9800;
     display: block;
-    margin: 10px auto;
+    margin: 10px;
     border-radius: 10px;
 }
 
 /*image stlying*/
-
 .history-image{
     display: flex;
     justify-content: center;
@@ -210,7 +202,7 @@ body{
     width: 80%;
     max-width: 700px;
     border-radius: 20px;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s;
     box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
 }
 
@@ -218,7 +210,7 @@ body{
     width: 80%;
     max-width: 700px;
     border-radius: 20px;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s;
     box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
 }
 
@@ -226,7 +218,7 @@ body{
     width: 80%;
     max-width: 700px;
     border-radius: 20px;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s;
     box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
 }
 
@@ -243,7 +235,6 @@ body{
 }
 
 /*content text*/
-
 .history-content{
     text-align: center;
     padding: 10px 20px;
@@ -269,8 +260,6 @@ body{
     font-size: 18px;
     color: #555;
 }
-
-
 
 /* the footer section */
 .footer{
@@ -376,7 +365,7 @@ body{
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .flag:hover{
@@ -449,7 +438,7 @@ body{
     border-radius: 20px;
     object-fit: cover;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    transition: 0.4s ease;
+    transition: 0.4s;
 }
 
 .flag img:hover{
@@ -498,7 +487,7 @@ body{
     background: rgba(32, 20, 20, 0.174);
     border-radius: 25px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    transition: 0.3s ease;
+    transition: 0.3;
 }
 
 .content:hover{
@@ -530,7 +519,7 @@ body{
     max-width: 500px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .visual video:hover{
@@ -541,7 +530,7 @@ body{
     width: 100%;
     border-radius: 60px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .visual img:hover{
@@ -702,7 +691,7 @@ form{
     outline: none;
     background: #995426;
     font-size: 1rem;
-    transition: all 0.3s ease;
+    transition: all 0.3s;
     color: #3a1d15;
 }
 
@@ -753,7 +742,7 @@ form{
     font-weight: 600;
     letter-spacing: 0.5px;
     cursor: pointer;
-    transition: all 0.35s ease;
+    transition: all 0.35s;
     box-shadow: 0 8px 20px rgba(91,37,11,0.25);
 }
 
