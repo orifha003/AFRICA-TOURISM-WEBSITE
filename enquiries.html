@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>ENQUIREIES</title>
 </head>
 <body>
@@ -33,22 +34,35 @@
                 <h2>Enquiry Form</h2>
             <!--ENQUIRY FORM-->
 
-                <form>
-            
-                    <label for="name">Full Name:</label><br>
-                    <input type="text" name="name" required><br><br>
+                <form class=" Enquiry-form">
 
-                    <label for="email">Email Address:</label><br>
-                    <input type="email" name="email" required><br><br>
+                    <div class="enquiry-fullname">
+                        <label for="name">Full Name:</label>
+                        <input type="text"  name="name" required>
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
 
-                    <label for="phone">Phone Number:</label><br>
-                    <input type="tel" name="phone"><br><br>
+                    <div class="enquiry-email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
 
-                    <label for="message">Your Enquiry:</label><br>
-                    <textarea  name="message" required></textarea><br><br>
+                    <div class=" enquiry-number">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    
+                    <div class="enquiry-message">
+                        <label for="message">Message:</label>
+                        <textarea  name="message" required></textarea>
+                        <i class="fa-solid fa-message"></i>
+                    </div>
 
-                    <input type="submit" value="submit">
-
+                   <div class="enquiry-button" >
+                        <button type="submit">Send Message</button>
+                    </div>
                 </form>
             </section>
         </main>
