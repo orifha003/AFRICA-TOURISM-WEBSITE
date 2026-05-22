@@ -53,6 +53,7 @@ body{
 }
 .nav-links :hover{
     transform: scale(0.9);
+    transition: 1s;
 }
 
 
@@ -106,7 +107,7 @@ body{
 #intro-02{
     margin-left: 25%;
 }
-
+ 
 
 /* SERVICES SECTION */
 .about-main{
@@ -138,11 +139,17 @@ body{
     margin-right: 20px;
     border-radius: 20px;
     margin-top: 40px;
+    border-style: dotted;
+    border-color: #713d2c;
 }
     
 .about-section :hover{
-    transform: scale(1.09);
-    background-color: #3a1d15ba;
+    transition: all 1s;
+    
+}
+
+.main-container:hover{
+     transform: scale(1.09);
 }
 
 /*about heading styling*/
@@ -441,7 +448,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    background: rgba(84, 16, 16, 0.304);
+    background: rgba(84, 16, 16, 0.379);
     backdrop-filter: blur(15px);
     border-radius: 25px;
     padding: 50px;
@@ -510,7 +517,7 @@ body{
 /*form section*/
 form{
     margin-top: 25px;
-    background: rgba(103, 13, 13, 0.285);
+    background: rgba(122, 34, 34, 0.865);
     padding: 35px;
     border-radius: 20px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
