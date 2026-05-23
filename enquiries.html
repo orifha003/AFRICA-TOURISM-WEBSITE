@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="../assets/images/LOGO -SAFARI .jpeg">
     <title>ENQUIREIES</title>
 </head>
-<body>
+<body class="body-enquiry">
    <!--HEADER SECTION -->
       <header class="navigation">
       <!--LOGO IMAGE-->
@@ -22,7 +22,7 @@
                      <ul class="nav-links">
                         <li><a href="./index.html">HOME</a> </li>
                         <li><a href="./about.html">ABOUT US</a></li>
-                        <li><a href="./service.html">SERVICES</a> </li>
+                        <li><a href="./service.html">SERVICES</a></li>
                         <li><a href="./contact.html">CONTACT</a></li>
                         <li><a href="./enquiries.html">ENQUIRIES</a> </li>
                      </ul>
@@ -31,11 +31,14 @@
 
    <!-- MAIN CONTENT-->
         <main>
-            <section>
+            <section class="enquiry-main">
                 <h2 class="enquiry-heading">Enquiry Form</h2>
             <!--ENQUIRY FORM-->
-
-                <form class=" Enquiry-form">
+            <div class="enquiry-container">
+                <div class="enquiry-image">
+                    <img src="./assets/images/big 5.png "alt="big five">
+                </div>
+                <form class="enquiry-form">
 
                     <div class="enquiry-fullname">
                         <label for="name">Full Name:</label>
@@ -64,6 +67,8 @@
                    <div class="enquiry-button" >
                         <button type="submit">Send Message</button>
                     </div>
+            </div>
+                
                 </form>
             </section>
         </main>
