@@ -41,7 +41,8 @@ TOTAL		            |                                         |10-weeks
 africa-tourism-website/
 |
 |__ assets/
-|   |__ css/
+|   |______css/
+|   |      |___style.css
 |   |__ js/
 |   |__ fonts/
 |   |__ images/
