@@ -879,6 +879,297 @@ textarea{
     box-shadow: rgba(243,199,122,0.35);
 }
 
+/*RESPONSIVE DESIGN */
+
+/*tablet*/
+@media (max-width: 1024px){
+
+    /* Navigation */
+    .navigation{
+        padding: 15px 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    /* Home Section */
+    .main-image img{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .title-home{
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+    }
+
+    #intro-01{
+        margin-left: 0;
+        text-align: center;
+    }
+    #intro-02{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .mini-intro{
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    /* Services */
+    .about-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .service-heading{
+        margin-left: 0;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #service-01{
+        margin-left: 0;
+        text-align: center;
+    }
+    #service-02{
+        margin-left: 0;
+        text-align: center;
+    }
+    #service-03{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .services-flags-image img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+
+    /* Countries */
+    .about{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .content{
+        grid-template-columns: 1fr;
+    }
+
+    .paragraph{
+        text-align: center;
+    }
+}
+
+
+/* MOBILE DEVICES */
+@media (max-width: 768px){
+
+    body{
+        background-position: center;
+    }
+
+    /* Navigation */
+    .navigation{
+        padding: 15px 20px;
+    }
+
+    .logo img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .nav-links li a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Home */
+    .main-image img{
+        width: 200px;
+    }
+
+    .title-home{
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    .intro-words{
+        font-size: 15px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    /* About Section */
+    .about-section{
+        grid-template-columns: 1fr;
+    }
+
+    .main-container{
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .about-subtitle{
+        font-size: 28px;
+    }
+
+    .about-content p{
+        font-size: 16px;
+    }
+
+    /* Titles */
+    .title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .safari-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+
+    /* Countries and Safari */
+    .about{
+        width: 95%;
+        padding: 25px;
+    }
+    .content{
+        width: 95%;
+        padding: 25px;
+    }
+
+    .paragraph{
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .about-safari{
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    /* Footer */
+    .footer-details{
+        font-size: 1.4rem;
+    }
+
+    .footer-text{
+        font-size: 0.95rem;
+    }
+
+    /* Contact */
+    .contact-form{
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+        padding: 25px;
+    }
+
+    .contact-heading h1{
+        font-size: 35px;
+    }
+
+    .detali-heading h1{
+        font-size: 24px;
+    }
+    /* Enquiry */
+    .enquiry-container{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .enquiry-heading{
+        font-size: 32px;
+    }
+    .enquiry-image img{
+        height: 350px;
+    }
+}
+
+
+/* SMALL PHONES */
+@media (max-width: 480px){
+    .title-home{
+        font-size: 22px;
+    }
+
+    .contact-heading h1{
+        font-size: 26px;
+    }
+    .enquiry-heading{
+        font-size: 26px;
+    }
+
+    .about-subtitle{
+        font-size: 22px;
+    }
+
+    .title{
+        font-size: 1.7rem;
+    }
+    .safari-title{
+        font-size: 1.7rem;
+    }
+
+    .heading{
+        font-size: 1.2rem;
+    }
+
+    input{
+        font-size: 14px;
+        padding: 12px;
+    }
+    textarea{
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .contact-button button{
+        font-size: 14px;
+        padding: 14px;
+    }
+    .enquiry-button button{
+        font-size: 14px;
+        padding: 14px;
+    }
+
+    .main-image img{
+        width: 160px;
+    }
+
+    .services-flags-image img{
+        width: 170px;
+    }
+
+    .footer{
+        padding: 30px 15px;
+    }
+}
+
 /*RESPONSIVE DESIGN*/
 @media(max-width: 950px){
     .enquiry-container{
@@ -902,12 +1193,12 @@ textarea{
     .enquiry-heading{
         font-size: 28px;
     }
-
     .enquiry-image img{
         height: 300px;
     }
-
-    input,
+    input{
+        font-size: 14px;
+    }
     textarea{
         font-size: 14px;
     }
@@ -916,3 +1207,4 @@ textarea{
         font-size: 15px;
     }
 }
+
