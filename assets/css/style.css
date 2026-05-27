@@ -83,8 +83,8 @@ body{
 }
 
 /*responsive system navigation*/
-@media only screens and (max-width:360px){
-    nav-links{
+@media (max-width:360px){
+    .nav-links  {
         display:none;
 
     }
