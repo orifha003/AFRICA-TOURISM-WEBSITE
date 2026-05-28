@@ -112,13 +112,12 @@ body{
 
 /* Active Link */
 .nav-links .active a{
-    background: linear-gradient(135deg, chocolate, #ffcc8a);
+    background: linear-gradient(135deg, rgb(206, 124, 66), #f1a13a);
     color: white;
     box-shadow:0 6px 18px rgba(210,105,30,0.3);
 }
 
 /*HAMBURGER ICON*/
-
 .menu-icon{
     display: none;
     cursor: pointer;
@@ -138,7 +137,7 @@ body{
 
 /*RESPONSIVE DESIGN*/
 
-@media screen and (max-width: 1079px){
+@media screen and (max-width: 1179px){
 
     .navigation{
         padding: 20px;
@@ -154,7 +153,7 @@ body{
     .nav-links{
         flex-direction: column;
         width: 100%;
-        text-align: center;
+       
         gap: 12px;
         padding: 20px;
         border-radius: 25px;
@@ -217,6 +216,10 @@ body{
     }
 }
 
+@media screen and (max-width: 480px){
+    
+   
+}
 
 /* INDEX SECTION*/
  
@@ -227,27 +230,28 @@ body{
     margin-left: 25%;
 }
 
-/* heading*/
-.title-home{
-    font-size: 49px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 500;
-    color:  #f7e8d8;
-    margin-top: 160px;
+@font-face {
+    font-family: MyCursiveFont;
+    src: url(../fonts/.ttf/Cookie-Regular.ttf);
 }
+
+/* heading*/
+
 .mini-home-title{
     text-align: center;
-    font-size: 20px;
-    color: #f7e8d8;
+    font-size: 70px;
+    font-family: MyCursiveFont;
+    color: #e7b988;
     font-style: oblique;
-    margin-top: 20px;
+    margin-top: 30px;
+    letter-spacing: 2px;
 }
 
 .mini-intro{
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 3px;
+    padding: 0 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
     color: rgb(244, 220, 215);
     font-size: 30px;
@@ -255,12 +259,9 @@ body{
     letter-spacing: 4px;
 }
 
-.about-main{
-    margin-top: 150px;
-    text-align: center;
-    font-size: 35px;
-    font-style: italic;
-    color:#f5dcdc;
+@font-face {
+    font-family: pop;
+    src: url(../fonts/.ttf/Cookie-Regular.ttf);
 }
 
 /*ABOUT SECTION GRID CARDS */
@@ -273,9 +274,7 @@ body{
     margin: auto;
 }
 
-/* 
-MAIN CARD CONTAINER */
-
+/* MAIN CARD CONTAINER */
 .main-container{
     position: relative;
     overflow: hidden;
@@ -312,7 +311,6 @@ MAIN CARD CONTAINER */
 }
 
 /* SUBTITLE */
-
 .about-subtitle{
     text-align: center;
     font-size: 2rem;
@@ -365,11 +363,11 @@ MAIN CARD CONTAINER */
 }
 
 .about-content p{
-    color: #f7e8d8;
+    color: #debc99;
     line-height: 1.9;
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: 0.5px;
-    font-family: 'Poppins', sans-serif;
+    font-family: pop;
 }
 
 
@@ -388,18 +386,19 @@ MAIN CARD CONTAINER */
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
 
     .about-subtitle{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .about-content p{
-        font-size: 0.92rem;
+        font-size: 2rem;
     }
     .main-container{
         border-radius: 22px;
     }
 }
+
 
 /*footer section*/
 .footer{
@@ -533,10 +532,9 @@ MAIN CARD CONTAINER */
     margin-left: 30%;
 }
 
-/* ALL COUNTRIES*/
 /* countries background */
 .countries-body{
-    font-family: 'Poppins', sans-serif;
+    
     background: linear-gradient(135deg,#5e3434,#341a10,#973c12,#7c5c3b );
 }
 /* coutries name title*/
@@ -545,10 +543,9 @@ MAIN CARD CONTAINER */
     display: inline-block;
     text-align: center;
     margin-top: 40px;
-    font-size: 3rem;
-    font-style: italic;
-    color: rgb(215, 149, 149);
-    font-family: 'Poppins', sans-serif;
+    font-size: 6rem;
+    color: #f3c77a;
+    font-family:pop;
     font-weight: 700;
     letter-spacing: 2px;
     left: 50%;
@@ -565,7 +562,7 @@ MAIN CARD CONTAINER */
     transform: translateX(-50%);
     width: 60%;
     height: 4px;
-    background: linear-gradient(to right,transparent,rgb(215, 149, 149),#f3caca, rgb(215, 149, 149),transparent);
+    background: linear-gradient(to right,transparent,rgb(171, 120, 50),#d08223, rgb(212, 131, 51),transparent);
     border-radius: 50px;
     box-shadow: 0 4px 12px rgba(215, 149, 149, 0.25);
 }
@@ -609,10 +606,10 @@ MAIN CARD CONTAINER */
     display: inline-block;
     text-align: center;
     margin-top: 40px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-style: italic;
-    color: rgb(215, 149, 149);
-    font-family: 'Poppins', sans-serif;
+    color: #f3c77a;
+    font-family: Pop;
     font-weight: 700;
     letter-spacing: 2px;
     left: 50%;
@@ -629,7 +626,7 @@ MAIN CARD CONTAINER */
     transform: translateX(-50%);
     width: 60%;
     height: 4px;
-    background: linear-gradient(to right,transparent,rgb(215, 149, 149),#f3caca, rgb(215, 149, 149),transparent);
+    background: linear-gradient(to right,transparent,rgb(171, 120, 50),#d08223, rgb(212, 131, 51),transparent);
     border-radius: 50px;
     box-shadow: rgba(215, 149, 149, 0.25);
 }
@@ -661,16 +658,9 @@ MAIN CARD CONTAINER */
     text-align: justify;
 }
 
-/* safari title */
-.safari-title{
-    content: "";
-    
-    text-align: center;
-    margin-top: 70px;
-    font-size: 3rem;
-    font-style: italic;
-    color: rgb(215, 149, 149);
-    font-weight: 700;
+@font-face {
+    font-family: myCursiveFont;
+    src: url(../fonts/.ttf/Cookie-Regular.ttf);
 }
 
 /* heading safari adventures */
@@ -678,8 +668,8 @@ MAIN CARD CONTAINER */
     text-align: center;
     margin-top: 50px;
     font-size: 2rem;
-    color: rgb(215, 149, 149);
-    font-style: oblique;
+    color: #f3c77a;
+    font-family:myCursiveFont ;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -810,7 +800,6 @@ form{
 }
 
 /* input container */
-
 .contact-fullname{
     position: relative;
 }
@@ -938,7 +927,8 @@ form i{
     text-align: center;
     color: white;
     font-size: 48px;
-    font-weight: 700;
+   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;

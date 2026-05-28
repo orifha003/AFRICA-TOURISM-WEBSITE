@@ -43,8 +43,13 @@ africa-tourism-website/
 |__ assets/
 |   |______css/
 |   |      |___style.css
+|   |
 |   |__ js/
-|   |__ fonts/
+|   |______ fonts/
+|   |     |____.ttf/
+|   |     |____.woff/
+|   |     |____.woff2/
+|   |
 |   |__ images/
 |   |__ media/
 |
@@ -165,6 +170,13 @@ africa-tourism-website/
 02/05/26
 - navigation bar added on in contact and enquiries pages
 - navigation bar deco added in south africa page under services 
+
+05/05/26
+
+
+28/05/26
+- .ttf ,.wff, .wff2 folders were added in the font folder under assets 
+- 
 
 
 ## References
