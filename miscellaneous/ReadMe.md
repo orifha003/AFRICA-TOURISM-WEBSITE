@@ -1,6 +1,6 @@
 ## Student infomation 
 - student number ---> ST10512842
-- student name ----> mulovhedzi orifha vhutali 
+- student name ----> Ms MULOVHEDZI ORIFHA VHUTALI
 
 ## Website description
 ORGANISATION OVERVIEW:
@@ -31,11 +31,11 @@ TOTAL		            |                                         |10-weeks
 
 
 ## Features and functionality
-- index.html -> home page (entry point)
-- about.ihtml-> website background information
-- services.html-> all services provided
-- contact.html -> contact details 
-- enqiries.html -> communication 
+- index.html --> home page (entry point)
+- about.ihtml --> website background information
+- services.html --> all services provided
+- contact.html --> contact details 
+- enqiries.html --> communication 
 
 ## Structure
 africa-tourism-website/
