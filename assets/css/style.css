@@ -351,6 +351,18 @@ body{
     position: relative;
 }
 
+@media screen and (max-width: 400px){
+    .about-title{
+        font-size: 2.5rem;
+    }
+    .about-title::after{
+        width: 200px;
+    }
+    .story{
+        font-size: 3rem;
+    }
+}
+
 /*about section grid cards */
 .about-section{
     display: grid;
@@ -627,7 +639,7 @@ body{
 .service-heading{
     text-align: center;
     margin-top: 20px;
-    font-family: pop;
+    font-family: march;
     color:  #d1a677;
     font-size: 5rem;
 }
@@ -641,6 +653,14 @@ body{
     border-radius: 50px;
     background: linear-gradient(to right,transparent,#f3c77a,#fff,#f3c77a,transparent);
     box-shadow: 0 0 12px rgba(243,199,122,0.7);
+}
+@media screen and (max-width: 500px) {
+    .service-heading{
+        font-size: 2.5rem;
+    }
+    .service-heading::after{
+        width: 200px;
+    }
 }
 .service-phrase{
     text-align: center;
