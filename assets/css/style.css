@@ -249,6 +249,15 @@ body{
     box-shadow: 0 0 12px rgba(243,199,122,0.7);
 }
 
+@media screen and (max-width: 600px) {
+    .mini-home-title{
+        font-size: 2.5rem;
+    }
+    .mini-home-title::after{
+        width: 200px;
+    }
+}
+
 .mini-home-subtitle{
     text-align: center;
     font-size: 50px;
@@ -341,7 +350,6 @@ body{
     font-family: march;
     position: relative;
 }
-
 
 /*about section grid cards */
 .about-section{
