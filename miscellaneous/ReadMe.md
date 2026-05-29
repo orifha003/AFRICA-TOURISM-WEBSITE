@@ -163,20 +163,83 @@ africa-tourism-website/
 - font size edited in introduction
 
 28/04/26
-- background on footer and navigatio added in services pages
+- background on footer and navigatio added in services page
 - horizontal layout of navigation bar in services 
 - added image in the center of the servcies landing page
+- footer colour changed in all pages 
+- mission, vission, history grid cards created
+- background color and fonts in mission, vission and history applied 
+
+30/04/26
+- margin in body edited
+- margin, background colour, border-radius added in contact form
+- margin , font style , color added in contact heading  and mini message in contact heading  under contact page 
 
 02/05/26
+- margin, history and vision was added font family and margin adjustment 
+- gap size was added in the about cards
+- class tags added in about.html
+
+03/05/26
 - navigation bar added on in contact and enquiries pages
 - navigation bar deco added in south africa page under services 
 
-05/05/26
+06/05/26
+- margin of the whole website changed
+- classes tag added in south Africa page 
+- size added in multi-media in south africa page 
 
+07/05/26
+- multi media  size adjusted in all service countries 
+
+08/05/26
+- enqiuries and contact form background colour added with hover, active affects and fonts styling 
+- logo size adjusted in all pages 
+
+09/05/26
+- hover and background colour added in contact and enqiury botton
+- padding added in navigation
+- background colour changed
+- logo image hover added rotation 
+
+10/05/26
+- background colour was changed in lesotho page 
+- navigation bar background color was changed 
+
+11/05/26
+- flags size images were changed in countries pages 
+
+15/05/26
+- added favicon in header of all pages 
+
+22/05/26
+- transitio added in nav links 
+- grid added in services page
+- border style added in main content in about services page 
+
+23/05/26
+- background colour changed in enqiures 
+- main title of enqiuries font changed
+
+24/05/26
+- responsive system added for all elements 
+
+25/05/26
+- responsive system added on navigation bar
+
+27/05/26
+- fontAwesome link added in the head in contact page and enquires pages 
 
 28/05/26
 - .ttf ,.wff, .wff2 folders were added in the font folder under assets 
-- 
+- .ttf was added fonts 
+
+29/05/26
+- responsive system added all elemnt tag
+- font added in .ttf folder 
+- background colour changed in about page 
+- font changed in enquiry heading 
+- font and color changed in aboutus content 
 
 
 ## References
