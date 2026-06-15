@@ -153,28 +153,46 @@ body{
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    
-
-    .nav-links {
-        display: none;
-        position:fixed;
-        top:70px;
-        left:-100%;
-        flex-direction:column;
-        width:100%;
-        text-align:center;
-        padding:20px;
-        background:rgba(40,20,20,0.95);
-        border-radius:20px;
-        transition:0.3s;
+    /* Mobile nav (slide in/out) */
+    .nav-links{
+        position: fixed;
+        margin-top: 44px;
+        top: 70px;
+        left: -100%;
+        border-radius: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+        background: rgba(45, 18, 10, 0.961);
+        /* Ensure transition works for both menu open/close */
+        transition: left 0.3s ease;
+        z-index: 1001;
     }
+    .nav-links::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        height: 2px;
+        border-radius: 50px;
+        background: linear-gradient( to right,transparent, #f3c77a, #fff, #f3c77a,transparent );
+    }
+
+    /* When JS adds .active, slide menu in */
+    .nav-links.active{
+        left: 0;
+    }
+
+
     .nav-links li{
         margin: 15px 0;
     }
 
     .nav-links.active{
-        left:0;
-
+        left: 0;
     }
 
     .logo img{
@@ -182,6 +200,7 @@ body{
         height:65px;
     }
 }
+
 
 /* index main image */
 .main-image img{
@@ -724,10 +743,6 @@ body{
     margin: 40px auto;
     width: 90%;
     max-width: 1200px;
-    background: rgba(128, 79, 44, 0.12);
-    border-radius: 25px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    backdrop-filter: blur(10px);
 }
 
 /* flag images styling */
@@ -787,7 +802,7 @@ body{
     display: inline-block;
     text-align: center;
     margin-top: 40px;
-    font-size: 4rem;
+    font-size: 8rem;
     font-style: italic;
     color: #f3c77a;
     font-family: march;
@@ -826,11 +841,44 @@ body{
 .heading{
     text-align: center;
     margin-top: 50px;
-    font-size: 3.5rem;
+    font-size: 6rem;
     color: #f3c77a;
-    font-family:myCursiveFont; ;
+    font-family:rare;
     font-weight: 600;
     letter-spacing: 1px;
+}
+.heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(40,20,20,0.96), rgba(92, 45, 28, 0.187),rgba(120,60,35,0.92));
+    backdrop-filter: blur(14px);
+    border-radius: 28px;
+    margin: 20px;
+    margin-top: 40px;
+    padding: 30px;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow:0 10px 30px rgba(0,0,0,0.3),0 0 12px rgba(243,199,122,0.08);
+}
+.heading-container:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+.heading-container::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 28px;
+    padding: 2px;
+    background: linear-gradient(135deg,transparent,rgba(94, 64, 35, 0.7),transparent);
+    Opacity: 0;
+    transition: 0.5s ease;
+}
+
+/* SHOW GLOW BORDER ON HOVER */
+.heading-container:hover::before{
+    opacity: 1;
 }
 
 /* content section */
