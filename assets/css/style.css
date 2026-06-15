@@ -115,106 +115,74 @@ body{
     box-shadow:0 6px 18px rgba(210,105,30,0.3);
 }
 
-/*HAMBURGER ICON*/
-.menu-icon{
+/* HAMBURGER */
+.hamburger{
     display: none;
     cursor: pointer;
 }
 
-.menu-icon i{
-    color: #f7e8d8;
-    font-size: 28px;
-    transition: 0.4s ease;
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #d7b087;
+    transition: all 0.3s ease;
 }
 
 /* Hover */
-.menu-icon i:hover{
+.hamburger:hover{
     color: #f3c77a;
     transform: scale(1.12);
 }
 
 /*RESPONSIVE DESIGN*/
 @media screen and (max-width: 1009px){
-
-    .navigation{
-        padding: 20px;
-        flex-direction: column;
-        gap: 20px;
+    .hamburger{
+        display:block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
     }
 
-    .nav-Bar{
-        width: 100%;
-        flex-direction: column;
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
     }
 
-    .nav-links{
-        flex-direction: column;
-        width: 100%;
-       
-        gap: 12px;
-        padding: 20px;
-        border-radius: 25px;
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-links li{
-        width: 100%;
-    }
+    
 
-    .nav-links{
+    .nav-links {
         display: none;
+        position:fixed;
+        top:70px;
+        left:-100%;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        padding:20px;
+        background:rgba(40,20,20,0.95);
+        border-radius:20px;
+        transition:0.3s;
+    }
+    .nav-links li{
+        margin: 15px 0;
     }
 
-    .fa-solid{
-        display: block;
-        color: #f3eded;
-        font-size: 24px; 
-        font-weight: 300; 
-        cursor: pointer;
-    }
+    .nav-links.active{
+        left:0;
 
-    .nav-links li a{
-        display: block;
-        width: 100%;
-    }
-
-    .menu-icon{
-        display: block;
-    }
-
-    .logo img{
-        width: 65px;
-        height: 65px;
-    }
-}
-
-
-@media screen and (max-width: 480px){
-
-    .navigation{
-        padding: 15px;
-    }
-
-    .nav-links{
-        padding: 15px;
-    }
-
-    .nav-links li a{
-        font-size: 0.9rem;
-        padding: 10px;
     }
 
     .logo img{
-        width: 55px;
-        height: 55px;
-    }
-
-    .menu-icon i{
-        font-size: 24px;
+        width:65px;
+        height:65px;
     }
 }
 
-
- 
 /* index main image */
 .main-image img{
     border-radius: 50%;
@@ -350,6 +318,7 @@ body{
     font-family: march;
     position: relative;
 }
+
 
 @media screen and (max-width: 400px){
     .about-title{

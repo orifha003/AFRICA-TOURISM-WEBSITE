@@ -70,7 +70,6 @@ africa-tourism-website/
     |__ README.md
 
 
-
 ## Installation/how to run
 
 ## Dependencies
@@ -295,6 +294,24 @@ africa-tourism-website/
 - Robergg, 2020. worldwildhearts. [Online] 
   Available at: https://youtu.be/o40hh1AL_PE?si=QxNzvLtFHfGmGrui
   [Accessed 05 march 2020].
+
+- Adams, V., 2016. google fonts. [Online] 
+Available at: https://fonts.google.com/specimen/Niconne?categoryFilters=Feeling:%2FExpressive%2FFancy&preview.script=Latn
+
+- Brennan, F., 2019. google fonts. [Online] 
+Available at: https://fonts.google.com/specimen/Manufacturing+Consent?categoryFilters=Feeling:%2FExpressive%2FFancy&preview.script=Latn
+
+- Fontstage, n.d. 2020. [Online] 
+Available at: https://fonts.google.com/specimen/Felipa?categoryFilters=Feeling:%2FExpressive%2FFancy&preview.script=Latn
+
+- Leuschke, R., 2019. google font. [Online] 
+Available at: https://fonts.google.com/specimen/Luxurious+Script?categoryFilters=Feeling:%2FExpressive%2FFancy&preview.script=Latn
+
+- Leuschke, R., 2026. GOOGLE FONTS. [Online] 
+Available at: https://fonts.google.com/specimen/Mea+Culpa?categoryFilters=Feeling:%2FExpressive%2FFancy&preview.script=Latn
+
+- Omnibus-Type, M. S., 2020. google fonts. [Online] 
+Available at: https://fonts.google.com/specimen/Ballet?categoryFilters=Feeling:%2FExpressive%2FFancy&preview.script=Latn
 
 
 
