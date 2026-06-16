@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinks.style.left = '-100%';
       }
 
-      // Flag image slide for southAfrica.html
+      // Flag image slide for southAfrica.html (keep existing behavior)
       const flagImg = document.querySelector('.flag img');
       if (flagImg) {
         const shouldOpen = navLinks.classList.contains('active');
@@ -48,39 +48,102 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- Countries pages: only show .content and .visual under the clicked .heading (all screens) ---
+  // Flag entrance animation on page open (smooth left -> right)
+  // Only runs once when the page loads.
+  const flagImg = document.querySelector('.flag img');
+  if (flagImg) {
+    flagImg.style.opacity = '0';
+    flagImg.style.transform = 'translateX(-200px)';
+
+    flagImg.animate(
+      [
+        { opacity: 0, transform: 'translateX(-200px)' },
+        { opacity: 1, transform: 'translateX(0)' },
+      ],
+      {
+        duration: 800,
+        easing: 'ease-out',
+        fill: 'forwards',
+      }
+    );
+  }
+
+  // Paragraph entrance animation on page open (smooth right -> left)
+  // Only runs once when the page loads.
+  const paragraph = document.querySelector('.paragraph');
+  if (paragraph) {
+    paragraph.style.opacity = '0';
+    paragraph.style.transform = 'translateX(200px)';
+
+    paragraph.animate(
+      [
+        { opacity: 0, transform: 'translateX(200px)' },
+        { opacity: 1, transform: 'translateX(0)' },
+      ],
+      {
+        duration: 800,
+        easing: 'ease-out',
+        fill: 'forwards',
+      }
+    );
+  }
+
+  // --- Countries pages: click a .heading and reveal only its matching content ---
+  // Requirement:
+  // - Hide all .content and .visual initially
+  // - Clicking a .heading should show only the .content that belongs to that heading
+  // - No navigation code changes
+
   const headings = Array.from(document.querySelectorAll('.heading'));
 
   if (headings.length) {
-    // Hide everything initially
     document.querySelectorAll('.content').forEach((el) => (el.style.display = 'none'));
     document.querySelectorAll('.visual').forEach((el) => (el.style.display = 'none'));
 
+    const openPanelForHeading = (heading) => {
+      // close all
+      document.querySelectorAll('.content').forEach((el) => (el.style.display = 'none'));
+      document.querySelectorAll('.visual').forEach((el) => (el.style.display = 'none'));
+
+      const headingContainer = heading.closest('.heading-container') || heading.parentElement;
+      if (!headingContainer) return;
+
+      // On these pages, .content is the next sibling after .heading-container
+      let node = headingContainer.nextElementSibling;
+
+      // Skip non-element nodes just in case (nextElementSibling already does)
+      while (node) {
+        // Stop if we reach another heading-container (safety)
+        if (node.classList && node.classList.contains('heading-container')) break;
+
+        if (node.classList && node.classList.contains('content')) {
+          node.style.display = '';
+          node.querySelectorAll('.visual').forEach((v) => (v.style.display = ''));
+          break; // only one content panel should open
+        }
+
+        node = node.nextElementSibling;
+      }
+    };
+
     headings.forEach((heading) => {
       heading.style.cursor = 'pointer';
+      heading.addEventListener('click', () => openPanelForHeading(heading));
+    });
 
-      heading.addEventListener('click', () => {
-        // Close all other panels first
-        document.querySelectorAll('.content').forEach((el) => (el.style.display = 'none'));
-        document.querySelectorAll('.visual').forEach((el) => (el.style.display = 'none'));
-
-        const section = heading.closest('section') || document;
-
-        // Show only blocks after the clicked heading until the next heading (or end of section)
-        let node = heading.nextElementSibling;
-        while (node) {
-          if (node.classList && node.classList.contains('heading')) break;
-          if (node.closest && node.closest('section') !== section) break;
-
-          if (node.classList && (node.classList.contains('content') || node.classList.contains('visual'))) {
-            node.style.display = '';
-          }
-
-          node = node.nextElementSibling;
-        }
+    // Also handle clicks on the heading-container (in case user clicks container not h3)
+    document.querySelectorAll('.heading-container').forEach((container) => {
+      container.style.cursor = 'pointer';
+      container.addEventListener('click', (e) => {
+        const heading = container.querySelector('.heading');
+        if (!heading) return;
+        // avoid double-trigger if the click already happened on the .heading
+        if (e.target && e.target.classList && e.target.classList.contains('heading')) return;
+        openPanelForHeading(heading);
       });
     });
   }
-
 });
+
+
 

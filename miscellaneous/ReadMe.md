@@ -45,6 +45,11 @@ africa-tourism-website/
 |   |      |___style.css
 |   |
 |   |__ js/
+|       |__about.js
+|       |__contact.js
+|       
+|
+|
 |   |______ fonts/
 |   |     |____.ttf/
 |   |     |____.woff/
@@ -212,7 +217,7 @@ africa-tourism-website/
 - added favicon in header of all pages 
 
 22/05/26
-- transitio added in nav links 
+- transition added in nav links 
 - grid added in services page
 - border style added in main content in about services page 
 
@@ -239,6 +244,10 @@ africa-tourism-website/
 - background colour changed in about page 
 - font changed in enquiry heading 
 - font and color changed in aboutus content 
+
+15/06/26
+- action added in navigation hamburger 
+- siding feacture added in navigation feature
 
 
 ## References

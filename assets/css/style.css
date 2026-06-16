@@ -279,7 +279,7 @@ body{
 /* about page main title */
 .about-title{
     text-align: center;
-    font-size: 4rem;
+    font-size: 7rem;
     color: #f3c77a;
     font-family: march;
     font-weight: 700;
@@ -411,15 +411,13 @@ body{
 
 .about-subtitle::after{
     content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -10px;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 4px;
-    background: linear-gradient(to right,transparent,rgb(171, 120, 50),#d08223, rgb(212, 131, 51),transparent);
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 12px auto;
     border-radius: 50px;
-    box-shadow: 0 4px 12px rgba(215, 149, 149, 0.25);
+    background: linear-gradient(to right,transparent,#f3c77a,#fff,#f3c77a,transparent);
+    box-shadow: 0 0 12px rgba(243,199,122,0.7);
 }
 
 /*IMAGE SECTION*/
@@ -678,7 +676,7 @@ body{
 
 /* countries background */
 .countries-body{
-    background: linear-gradient(135deg,#5b3319,#341a10,#986249,#7c5c3b );
+    background: linear-gradient(135deg,#9e592b,#341a10,#713418,#cf9f6f );
 }
 /* coutries name title*/
 .title{
@@ -699,15 +697,13 @@ body{
 
 .title::after{
     content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 4px;
-    background: linear-gradient(to right,transparent,rgb(171, 120, 50),#d08223, rgb(212, 131, 51),transparent);
+    display: block;
+    width: 800px;
+    height: 2px;
+    margin: 12px auto;
     border-radius: 50px;
-    box-shadow: 0 4px 12px rgba(215, 149, 149, 0.25);
+    background: linear-gradient(to right,transparent,#f3c77a,#fff,#f3c77a,transparent);
+    box-shadow: 0 0 12px rgba(243,199,122,0.7);
 }
 
 .title:hover{
@@ -816,15 +812,13 @@ body{
 
 .safari-title::after{
     content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 4px;
-    background: linear-gradient(to right,transparent,rgb(171, 120, 50),#d08223, rgb(212, 131, 51),transparent);
+    display: block;
+    width: 800px;
+    height: 1px;
+    margin: 12px auto;
     border-radius: 50px;
-    box-shadow: rgba(215, 149, 149, 0.25);
+    background: linear-gradient(to right,transparent,#f3c77a,#fff,#f3c77a,transparent);
+    box-shadow: 0 0 12px rgba(243,199,122,0.7);
 }
 
 @font-face {
@@ -856,10 +850,12 @@ body{
     border-radius: 28px;
     margin: 20px;
     margin-top: 40px;
-    padding: 30px;
-    border: 1px solid rgba(255,255,255,0.08);
+    padding: 10px;
+    border: 3px solid rgba(183, 121, 29, 0.514);
     box-shadow:0 10px 30px rgba(0,0,0,0.3),0 0 12px rgba(243,199,122,0.08);
 }
+
+
 .heading-container:hover{
     transform: scale(1.02);
     transition: 0.5s;
