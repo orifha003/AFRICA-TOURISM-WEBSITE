@@ -84,6 +84,7 @@ body{
 .nav-Bar{
     gap: 30px;
     margin-left: 100px;
+    padding: 20px;
 }
 
 /* Navigation Links Container */
@@ -91,7 +92,7 @@ body{
     display: flex;
     align-items: center;
     gap: 25px;
-    width: fit-content;
+    width: 940px;
     list-style: none;
     padding: 12px 22px;
     border-radius: 50px;
@@ -155,7 +156,7 @@ body{
 }
 
 /*RESPONSIVE DESIGN*/
-@media screen and (max-width: 1550px){
+@media screen and (max-width: 1250px){
     .hamburger{
         display:block;
     }
@@ -354,7 +355,16 @@ body{
     font-family: march;
     position: relative;
 }
-
+.story::after{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 3px;
+    margin: 12px auto;
+    border-radius: 50px;
+    background: linear-gradient(to right,transparent,#f3c77a,#fff,#f3c77a,transparent);
+    box-shadow: 0 0 12px rgba(243,199,122,0.7);
+}
 
 @media screen and (max-width: 400px){
     .about-title{

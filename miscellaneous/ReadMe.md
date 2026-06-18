@@ -39,22 +39,20 @@ TOTAL		            |                                         |10-weeks
 
 ## Structure
 africa-tourism-website/
-|
 |__ assets/
 |   |______css/
 |   |      |___style.css
+|   |______js/
+|   |     |__about.js
+|   |     |__contact.js
+|   |     |__countries.js
+|   |     |__enquiry.js
+|   |     |__scrit.js
 |   |
-|   |__ js/
-|       |__about.js
-|       |__contact.js
-|       
-|
-|
-|   |______ fonts/
+|   |_____ fonts/
 |   |     |____.ttf/
 |   |     |____.woff/
 |   |     |____.woff2/
-|   |
 |   |__ images/
 |   |__ media/
 |

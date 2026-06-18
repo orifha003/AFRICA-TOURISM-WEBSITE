@@ -23,12 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-
-
-
-
-
-
   // ===============================
   // Smooth enterence from the left for .about-intro
   // ===============================
@@ -51,9 +45,68 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ===============================
+  // Interactive buttons for .welcome-container class
+  // ===============================
+  const welcomeContainerEl = document.querySelector('.welcome-container');
+  if (welcomeContainerEl) {
+    if (!welcomeContainerEl.querySelector('.welcome-container-card-actions')) {
+      const actions = document.createElement('div');
+      actions.className = 'welcome-container-card-actions';
+      actions.style.cssText = [
+        'display:flex;',
+        'gap:12px;',
+        'justify-content:center;',
+        'margin-top:12px;'
+      ].join('');
+
+      const hideBtn = document.createElement('button');
+      hideBtn.type = 'button';
+      hideBtn.textContent = 'Hide Welcome';
+      hideBtn.style.cssText = [
+        'cursor:pointer;',
+        'padding:10px 16px;',
+        'border-radius:10px;',
+        'border:1px solid rgba(0,0,0,0.15);',
+        'background:rgba(0,0,0,0.06);',
+        'color:#111;',
+        'font-weight:700;'
+      ].join('');
+
+      const showBtn = document.createElement('button');
+      showBtn.type = 'button';
+      showBtn.textContent = 'Show Welcome';
+      showBtn.style.cssText = [
+        'cursor:pointer;',
+        'padding:10px 16px;',
+        'border-radius:10px;',
+        'border:1px solid rgba(0,0,0,0.15);',
+        'background:#d4af37;',
+        'color:#111;',
+        'font-weight:700;'
+      ].join('');
+
+      hideBtn.addEventListener('click', () => {
+        welcomeContainerEl.style.display = 'none';
+      });
+
+      showBtn.addEventListener('click', () => {
+        welcomeContainerEl.style.display = '';
+      });
+
+      welcomeContainerEl.insertAdjacentElement('afterend', actions);
+      actions.appendChild(showBtn);
+      actions.appendChild(hideBtn);
+    }
+  }
+
+  // ===============================
+
+  // ===============================
   // Realtime header timestamp (center + gold)
+
   // ===============================
   const header = document.querySelector('header.navigation');
+
 
   if (header) {
     const pad2 = (n) => String(n).padStart(2, '0');
