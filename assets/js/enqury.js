@@ -66,9 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateStamp, 1000);
   }
 
-  // ===============================
+  
   // Enquiry form validation rules
-  // ===============================
   const form = document.querySelector('form.enquiry-form') || document.querySelector('form');
   if (form) {
     const nameInput = form.querySelector('input[name="name"]');
