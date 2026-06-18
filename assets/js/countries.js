@@ -2,6 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.querySelector('.hamburger');
   const navLinks = document.querySelector('.nav-links');
 
+  // Match navigation behavior from script.js
+  if (!hamburger && !navLinks) return;
+
   if (hamburger && navLinks) {
     hamburger.addEventListener('click', () => {
       hamburger.classList.toggle('active');
@@ -11,31 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (navLinks.classList.contains('active') !== hamburger.classList.contains('active')) {
         navLinks.classList.add('active');
       }
-
-      // Slide menu from left (CSS uses left: -100% and left: 0)
-      if (navLinks.classList.contains('active')) {
-        navLinks.style.left = '0';
-      } else {
-        navLinks.style.left = '-100%';
-      }
-
-      // Flag image slide for southAfrica.html (keep existing behavior)
-      const flagImg = document.querySelector('.flag img');
-      if (flagImg) {
-        const shouldOpen = navLinks.classList.contains('active');
-        flagImg.style.willChange = 'transform';
-        flagImg.style.transition = 'transform 420ms ease';
-
-        if (shouldOpen) {
-          flagImg.style.transform = 'translateX(-100%)';
-          requestAnimationFrame(() => {
-            flagImg.style.transform = 'translateX(0)';
-          });
-        } else {
-          flagImg.style.transform = 'translateX(0)';
-          flagImg.style.transition = '';
-        }
-      }
     });
 
     // Close the menu after clicking a link (mobile UX)
@@ -43,10 +21,52 @@ document.addEventListener('DOMContentLoaded', () => {
       a.addEventListener('click', () => {
         hamburger.classList.remove('active');
         navLinks.classList.remove('active');
-        navLinks.style.left = '-100%';
       });
     });
   }
+
+
+  // ===============================
+  // Realtime header timestamp (center + gold)
+  // ===============================
+  const header = document.querySelector('header.navigation');
+  if (header) {
+    const pad2 = (n) => String(n).padStart(2, '0');
+
+    let stampEl = header.querySelector('#realtime-stamp');
+    if (!stampEl) {
+      stampEl = document.createElement('div');
+      stampEl.id = 'realtime-stamp';
+      stampEl.setAttribute('aria-live', 'polite');
+
+      stampEl.style.cssText = [
+        'margin: 8px auto 0 auto;',
+        'font-size: 0.85rem;',
+        'font-weight: 700;',
+        'color: #d4af37;',
+        'text-align: center;',
+        'width: 100%;',
+        'pointer-events: none;',
+      ].join('');
+
+      const nav = header.querySelector('nav');
+      if (nav && nav.nextSibling) header.insertBefore(stampEl, nav.nextSibling);
+      else header.appendChild(stampEl);
+    }
+
+    const updateStamp = () => {
+      const now = new Date();
+      const stamp = [
+        now.getFullYear(), '-', pad2(now.getMonth() + 1), '-', pad2(now.getDate()),
+        ' ', pad2(now.getHours()), ':', pad2(now.getMinutes()), ':', pad2(now.getSeconds())
+      ].join('');
+      stampEl.textContent = `Live: ${stamp}`;
+    };
+
+    updateStamp();
+    setInterval(updateStamp, 1000);
+  }
+
 
   // Flag entrance animation on page open (smooth left -> right)
   // Only runs once when the page loads.
@@ -144,6 +164,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-
-
 

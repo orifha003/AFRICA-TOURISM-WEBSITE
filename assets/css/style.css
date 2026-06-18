@@ -19,10 +19,10 @@ body{
 /*navigation section*/
 .navigation{
     width: 100%;
-    padding: 22px 70px;
+    padding: 39px ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
     background: linear-gradient(135deg, rgba(40,20,20,0.96), rgba(92,45,28,0.94),rgba(120,60,35,0.92));
     backdrop-filter: blur(14px);
     position: sticky;
@@ -30,6 +30,24 @@ body{
     z-index: 1000;
     border-bottom: 1px solid rgba(255,255,255,0.08);
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* realtime timestamp in header (gold + perfectly centered) */
+#realtime-stamp{
+    color: #cba421;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1009px){
+    #realtime-stamp{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 22px;
+        width: auto;
+    }
 }
 
 /* Decorative Top Glow */
@@ -64,16 +82,16 @@ body{
 
 /* NAVIGATION SECTION*/
 .nav-Bar{
-    display: flex;
-    align-items: center;
     gap: 30px;
+    margin-left: 100px;
 }
 
 /* Navigation Links Container */
 .nav-links{
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 25px;
+    width: fit-content;
     list-style: none;
     padding: 12px 22px;
     border-radius: 50px;
@@ -92,8 +110,8 @@ body{
 .nav-links li a{
     text-decoration: none;
     color: #f7e8d8;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
     letter-spacing: 1px;
     padding: 12px 20px;
     border-radius: 30px;
@@ -123,9 +141,9 @@ body{
 
 .bar{
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 40px;
     margin: 5px auto;
+    height: 3px;
     background-color: #d7b087;
     transition: all 0.3s ease;
 }
@@ -137,7 +155,7 @@ body{
 }
 
 /*RESPONSIVE DESIGN*/
-@media screen and (max-width: 1009px){
+@media screen and (max-width: 1550px){
     .hamburger{
         display:block;
     }
@@ -165,7 +183,7 @@ body{
         text-align: center;
         padding: 50px;
         background: rgba(45, 18, 10, 0.961);
-        /* Ensure transition works for both menu open/close */
+    /* Ensure transition works for both menu open/close */
         transition: left 0.3s ease;
         z-index: 1001;
     }
@@ -185,7 +203,6 @@ body{
     .nav-links.active{
         left: 0;
     }
-
 
     .nav-links li{
         margin: 15px 0;
@@ -671,13 +688,13 @@ body{
     margin-left: 20%;
     margin-top:29px;
     margin-bottom: 20px;
-
 }
 
 /* countries background */
 .countries-body{
     background: linear-gradient(135deg,#9e592b,#341a10,#713418,#cf9f6f );
 }
+
 /* coutries name title*/
 .title{
     position: relative;
@@ -780,18 +797,19 @@ body{
     text-align: justify;
 }
 @media screen and (max-width: 900px){
- .about {
-    display: flex;
-    flex-direction: column;
-    }
-.paragraph {
-    font-size: 2.8rem;
-    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        }
+    .paragraph {
+        font-size: 2.8rem;
+        }
 }
 @font-face {
     font-family: march;
     src: url(../fonts/.ttf/ManufacturingConsent-Regular.ttf);
 }
+
 /* safari title */
 .safari-title{
     position: relative;
@@ -841,6 +859,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
 }
+
 .heading-container{
     display: flex;
     justify-content: center;
@@ -855,12 +874,12 @@ body{
     box-shadow:0 10px 30px rgba(0,0,0,0.3),0 0 12px rgba(243,199,122,0.08);
 }
 
-
 .heading-container:hover{
     transform: scale(1.02);
     transition: 0.5s;
     box-shadow: 0 15px 35px rgba(0,0,0,0.12);
 }
+
 .heading-container::before{
     content: "";
     position: absolute;
@@ -911,11 +930,13 @@ body{
     line-height: 2;
     font-size: 1.7rem;
 }
+
 @media screen and (max-width: 900px){
     .about-safari{
         font-size: 2.5rem;
     }
 }
+
 /* media and video section */
 .visual{
     display: flex;
@@ -946,7 +967,7 @@ body{
     transform: scale(1.02);
 }
 
-/* CONTACT SECTION*/
+/* Contact Section */
 .contact-form{
     width: 100%;
     min-height: 100vh;
@@ -957,6 +978,7 @@ body{
     padding: 60px 8%;
     color: white;
 }
+
 @media screen and (max-width: 900px) {
     .contact-form{
         flex-direction: column;
@@ -982,10 +1004,11 @@ body{
     background: linear-gradient(to right,transparent,#f3c77a,#fff,#f3c77a,transparent);
     box-shadow: 0 0 12px rgba(243,199,122,0.7);
 }
+
 @media screen and (max-width: 500px) {
     .contact-heading h1{
         font-size: 2rem;
-    }
+    }  
     .contact-heading h1::after{
         width: 150px;
     }
@@ -1020,7 +1043,7 @@ body{
     color: #f3c77a;
 }
 
-/* form container  */
+/* form container */
 form{
     width: 500px;
     background: rgba(255,255,255,0.06);
@@ -1125,7 +1148,6 @@ form i{
 }
 
 /* button */
-
 .contact-button button{
     width: 100%;
     padding: 16px;
@@ -1145,12 +1167,10 @@ form i{
     box-shadow: rgba(243,199,122,0.3);
 }
 
-
 /*enquiry section*/
 .body-enquiry{
    background: linear-gradient(135deg,#5e3434,#341a10,#973c12,#7c5c3b );
-    min-height: 100vh;
-    
+    min-height: 100vh; 
 }
 
 .enquiry-main{
@@ -1169,9 +1189,9 @@ form i{
     font-size: 100px;
     font-family: rare;
     margin-bottom: 35px;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px; 
 }
+
 .enquiry-heading::after{
     content: "";
     display: block;
@@ -1182,7 +1202,6 @@ form i{
     background: linear-gradient(to right,transparent,#f3c77a,#fff,#f3c77a,transparent);
     box-shadow: 0 0 12px rgba(243,199,122,0.7);
 }
-
 
 /*MAIN CONTAINER*/
 .enquiry-container{
@@ -1198,6 +1217,7 @@ form i{
     border: 1px solid rgba(255,255,255,0.08);
     box-shadow: rgba(0,0,0,0.4);
 }
+
 @media screen and (max-width: 900px) {
     .enquiry-container{
         flex-direction: column;
@@ -1311,12 +1331,15 @@ textarea{
 .enquiry-fullname:hover i{
     transform: scale(1.2);
 }
+
 .enquiry-email:hover i{
     transform: scale(1.2);
 }
+
 .enquiry-number:hover i{
     transform: scale(1.2);
 }
+
 .enquiry-message:hover i{
     transform: scale(1.2);
 }
@@ -1340,6 +1363,3 @@ textarea{
     transform: translateY(-4px);
     box-shadow: rgba(243,199,122,0.35);
 }
-
-
-
