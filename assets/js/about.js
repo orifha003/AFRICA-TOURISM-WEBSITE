@@ -44,9 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }
 
-  // ===============================
   // Interactive buttons for .welcome-container class
-  // ===============================
   const welcomeContainerEl = document.querySelector('.welcome-container');
   if (welcomeContainerEl) {
     if (!welcomeContainerEl.querySelector('.welcome-container-card-actions')) {
@@ -99,10 +97,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ===============================
+
   // Realtime footer timestamp (center + gold)
   // (moved from header per request)
-  // ===============================
+  
   const footer = document.querySelector('footer.footer');
   if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');

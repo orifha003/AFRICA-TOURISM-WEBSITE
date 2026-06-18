@@ -145,9 +145,7 @@ body{
     transform:translateY(-9px) rotate(-45deg);
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/*  RESPONSIVE */
 
 @media (max-width:1250px){
 
@@ -217,6 +215,7 @@ body{
     font-family: MyCursiveFont;
     src: url(../fonts/.ttf/Cookie-Regular.ttf);
 }
+
 
 /* heading*/
 .mini-home-title{

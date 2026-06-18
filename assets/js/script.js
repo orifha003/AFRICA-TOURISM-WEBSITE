@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ===============================
+ 
   // Realtime footer timestamp (center + gold)
   // (moved from header per request)
-  // ===============================
+  
   const footer = document.querySelector('footer.footer');
   if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');
