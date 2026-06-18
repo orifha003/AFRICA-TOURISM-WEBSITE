@@ -25,20 +25,21 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ===============================
-  // Realtime header timestamp (center + gold)
+  // Realtime footer timestamp (center + gold)
+  // (moved from header per request)
   // ===============================
-  const header = document.querySelector('header.navigation');
-  if (header) {
+  const footer = document.querySelector('footer.footer');
+  if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');
 
-    let stampEl = header.querySelector('#realtime-stamp');
+    let stampEl = footer.querySelector('#realtime-stamp');
     if (!stampEl) {
       stampEl = document.createElement('div');
       stampEl.id = 'realtime-stamp';
       stampEl.setAttribute('aria-live', 'polite');
 
       stampEl.style.cssText = [
-        'margin: 8px auto 0 auto;',
+        'margin: 0 auto;',
         'font-size: 0.85rem;',
         'font-weight: 700;',
         'color: #d4af37;',
@@ -47,9 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'pointer-events: none;'
       ].join('');
 
-      const nav = header.querySelector('nav');
-      if (nav && nav.nextSibling) header.insertBefore(stampEl, nav.nextSibling);
-      else header.appendChild(stampEl);
+      footer.appendChild(stampEl);
     }
 
     const updateStamp = () => {
@@ -65,5 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateStamp, 1000);
   }
 });
+
 
 

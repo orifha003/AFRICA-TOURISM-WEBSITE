@@ -27,31 +27,30 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ===============================
-  // Realtime header timestamp (center + gold)
+  // Realtime footer timestamp (center + gold)
+  // (moved from header per request)
   // ===============================
-  const header = document.querySelector('header.navigation');
-  if (header) {
+  const footer = document.querySelector('footer.footer');
+  if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');
 
-    let stampEl = header.querySelector('#realtime-stamp');
+    let stampEl = footer.querySelector('#realtime-stamp');
     if (!stampEl) {
       stampEl = document.createElement('div');
       stampEl.id = 'realtime-stamp';
       stampEl.setAttribute('aria-live', 'polite');
 
       stampEl.style.cssText = [
-        'margin: 8px auto 0 auto;',
+        'margin: 0 auto;',
         'font-size: 0.85rem;',
         'font-weight: 700;',
         'color: #d4af37;',
         'text-align: center;',
         'width: 100%;',
-        'pointer-events: none;',
+        'pointer-events: none;'
       ].join('');
 
-      const nav = header.querySelector('nav');
-      if (nav && nav.nextSibling) header.insertBefore(stampEl, nav.nextSibling);
-      else header.appendChild(stampEl);
+      footer.appendChild(stampEl);
     }
 
     const updateStamp = () => {
@@ -161,6 +160,9 @@ document.addEventListener('DOMContentLoaded', () => {
       box.textContent = msg;
     };
 
+    // (Removed accidental duplicate showErrorReEnter definition to avoid redeclaration)
+
+
     // Recipient processing (use email field as recipient if provided, otherwise fallback)
     const getRecipientEmail = () => {
       // Your form field names: phone/name/email/message
@@ -169,8 +171,13 @@ document.addEventListener('DOMContentLoaded', () => {
       return 'info@africaUNCOVERED.com';
     };
 
+    const showErrorReEnter = () => {
+      showFeedback('ERROR PLEASE RE ENTER!!!', 'error');
+    };
+
     form.addEventListener('submit', (e) => {
       e.preventDefault();
+
 
       // Clear existing invalid states quickly
       if (nameInput) nameInput.setCustomValidity('');
@@ -195,28 +202,28 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!nameOk) {
         if (nameInput) nameInput.setCustomValidity('Full name must be at least 3 characters.');
         nameInput && nameInput.reportValidity();
-        showFeedback('Please enter a valid full name.', 'error');
+        showErrorReEnter();
         return;
       }
 
       if (!emailOk) {
         if (emailInput) emailInput.setCustomValidity('Please enter a valid email address.');
         emailInput && emailInput.reportValidity();
-        showFeedback('Please enter a valid email address.', 'error');
+        showErrorReEnter();
         return;
       }
 
       if (!messageOk) {
         if (messageInput) messageInput.setCustomValidity('Message must be at least 10 characters.');
         messageInput && messageInput.reportValidity();
-        showFeedback('Please enter a message with at least 10 characters.', 'error');
+        showErrorReEnter();
         return;
       }
 
       if (!phoneOk) {
         if (phoneInput) phoneInput.setCustomValidity('Please enter a valid phone number.');
         phoneInput && phoneInput.reportValidity();
-        showFeedback('Please enter a valid phone number.', 'error');
+        showErrorReEnter();
         return;
       }
 
