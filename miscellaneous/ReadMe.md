@@ -47,7 +47,7 @@ africa-tourism-website/
 |   |     |__contact.js
 |   |     |__countries.js
 |   |     |__enquiry.js
-|   |     |__scrit.js
+|   |     |__script.js
 |   |
 |   |_____ fonts/
 |   |     |____.ttf/
@@ -72,6 +72,40 @@ africa-tourism-website/
 |__miscellaneous/
     |__ README.md
 
+## respond functionality 
+
+- navigation bar on smaller devices.
+![alt text](image.png)
+
+- live realTime
+![alt text](image-1.png)
+
+- Interactive buttons for .welcome-container class
+ ![alt text](image-2.png)
+
+- Clicking a heading should show only the content that belongs to that heading. in countries
+![alt text](image-3.png)
+
+-  Lightbox for .visual images/videos (click to view larger). Works only if there are elements to click.
+![alt text](image-4.png)
+
+-  Google interactive map
+![alt text](image-5.png)
+
+- form validation showing different messages 
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+
+- Flag and desciption entrance animation on page open, in countries
+![alt text](image-12.png)
+
+- entrance amination on contact text 
+![alt text](image-13.png)
+![alt text](image-14.png)
 
 ## Installation/how to run
 
@@ -250,7 +284,7 @@ africa-tourism-website/
 
 16/06/26
 - Flag entrance animation on page open (smooth left -> right). Only runs once when the page loads.
-- Paragraphof country description entrance animation on page open (smooth right -> left). Only runs once when the page loads.
+- Paragraph of country description entrance animation on page open (smooth right -> left). Only runs once when the page loads.
 
 17/06/26
 - countries pages: click a .heading and reveal only its matching content
