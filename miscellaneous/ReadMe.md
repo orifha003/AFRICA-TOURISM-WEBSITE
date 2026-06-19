@@ -246,7 +246,26 @@ africa-tourism-website/
 15/06/26
 - action added in navigation hamburger 
 - siding feacture added in navigation feature
+- Ensured the mobile menu actually becomes visible when toggling
 
+16/06/26
+- Flag entrance animation on page open (smooth left -> right). Only runs once when the page loads.
+- Paragraphof country description entrance animation on page open (smooth right -> left). Only runs once when the page loads.
+
+17/06/26
+- countries pages: click a .heading and reveal only its matching content
+- Hide all .content and .visual initially
+- Clicking a .heading should show only the .content that belongs to that heading
+
+18/06/26
+- Realtime footer timestamp (center + gold)
+- Lightbox for .visual images/videos (click to view larger). Works only if there are elements to click.
+- Contact form validation rules
+- Recipient processing added (use email field as recipient if provided, otherwise fallback)
+- in contact, Google interactive map (embed-free JS via iframe) - Polokwane, South Africa
+- Animate contact text container on page load (left -> right), in contact pages 
+- Interactive buttons for .welcome-container class
+- 
 
 ## References
 - Reserve, L. S. G., 2016. travelplusstyle. [Online] 

@@ -26,10 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===============================
+
   // Realtime footer timestamp (center + gold)
-  // (moved from header per request)
-  // ===============================
   const footer = document.querySelector('footer.footer');
   if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');
@@ -66,9 +64,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateStamp, 1000);
   }
 
-  // ===============================
+  
   // Contact form validation rules
-  // ===============================
   const form = document.querySelector('form');
   if (form) {
     const nameInput = form.querySelector('input[name="name"]');
@@ -159,8 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
       box.style.color = isError ? '#ffb3b3' : '#b9ffd0';
       box.textContent = msg;
     };
-
-    // (Removed accidental duplicate showErrorReEnter definition to avoid redeclaration)
 
 
     // Recipient processing (use email field as recipient if provided, otherwise fallback)
@@ -268,15 +263,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Build Maps embed URLs (no API key required)
-    // Locations (as requested):
-    // - Polokwane, South Africa
-    // - Kruger National Park, South Africa
-    // - Lion Sand Game Reserve, South Africa
-    // - Victoria Falls, Zimbabwe
-    // - Pony Trek Safari, Lesotho
-    // - Okavango Delta, Botswana
-    // - Hluhluwe / Hlane Royal National Park, Eswatini
-    // - Mana Pools National Park, Zimbabwe
+    // Locations:
+    // Polokwane, South Africa
+    //  Kruger National Park, South Africa
+    // Lion Sand Game Reserve, South Africa
+    // Victoria Falls, Zimbabwe
+    // Pony Trek Safari, Lesotho
+    // Okavango Delta, Botswana
+    // Hluhluwe / Hlane Royal National Park, Eswatini
+    // Mana Pools National Park, Zimbabwe
     const locations = [
       'polokwane, south africa',
       'kruger national park, south africa',
@@ -320,7 +315,6 @@ document.addEventListener('DOMContentLoaded', () => {
   ensureGoogleMap();
 
   // Animate contact text container on page load (left -> right)
-
   const contactContainer = document.querySelector('.contact-container');
   if (contactContainer) {
     // Ensure it starts from the left and is hidden before the animation begins

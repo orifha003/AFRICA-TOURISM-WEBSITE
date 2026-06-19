@@ -26,10 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===============================
   // Realtime footer timestamp (center + gold)
-  // (moved from header per request)
-  // ===============================
   const footer = document.querySelector('footer.footer');
   if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');
@@ -154,10 +151,10 @@ document.addEventListener('DOMContentLoaded', () => {
       box.textContent = 'ERROR PLEASE RE ENTER!!!';
     };
 
-    // ===============================
+    
     // Dynamically load enquiry form content
     // (only injects a textarea+message container if missing)
-    // ===============================
+    
     const mountDynamicContent = () => {
       if (!form) return;
 

@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const hideBtn = document.createElement('button');
       hideBtn.type = 'button';
-      hideBtn.textContent = 'Hide Welcome';
+      hideBtn.textContent = 'Hide content';
       hideBtn.style.cssText = [
         'cursor:pointer;',
         'padding:10px 16px;',
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const showBtn = document.createElement('button');
       showBtn.type = 'button';
-      showBtn.textContent = 'Show Welcome';
+      showBtn.textContent = 'Show content';
       showBtn.style.cssText = [
         'cursor:pointer;',
         'padding:10px 16px;',
@@ -97,10 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-
   // Realtime footer timestamp (center + gold)
-  // (moved from header per request)
-  
   const footer = document.querySelector('footer.footer');
   if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');

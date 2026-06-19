@@ -24,10 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
-  // ===============================
+  
   // Realtime footer timestamp (center + gold)
-  // (moved from header per request)
-  // ===============================
   const footer = document.querySelector('footer.footer');
   if (footer) {
     const pad2 = (n) => String(n).padStart(2, '0');
@@ -65,7 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Flag entrance animation on page open (smooth left -> right)
-  // Only runs once when the page loads.
   const flagImg = document.querySelector('.flag img');
   if (flagImg) {
     flagImg.style.opacity = '0';
@@ -85,7 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Paragraph entrance animation on page open (smooth right -> left)
-  // Only runs once when the page loads.
   const paragraph = document.querySelector('.paragraph');
   if (paragraph) {
     paragraph.style.opacity = '0';
@@ -104,12 +100,9 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }
 
-  // --- Countries pages: click a .heading and reveal only its matching content ---
-  // Requirement:
-  // - Hide all .content and .visual initially
-  // - Clicking a .heading should show only the .content that belongs to that heading
-  // - No navigation code changes
-
+  // countries pages: click a .heading and reveal only its matching content
+  // Hide all .content and .visual initially
+  // Clicking a .heading should show only the .content that belongs to that heading
   const headings = Array.from(document.querySelectorAll('.heading'));
 
   if (headings.length) {
@@ -160,8 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- Lightbox for .visual images/videos (click to view larger) ---
-  // Works only if there are elements to click.
+  //  Lightbox for .visual images/videos (click to view larger)
   const ensureLightbox = () => {
     let overlay = document.querySelector('[data-lightbox-overlay="true"]');
     if (overlay) return overlay;
