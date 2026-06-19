@@ -151,6 +151,27 @@ document.addEventListener('DOMContentLoaded', () => {
       box.textContent = 'ERROR PLEASE RE ENTER!!!';
     };
 
+    const showSuccessSent = () => {
+      const box = form.querySelector('.form-feedback') || (() => {
+        const b = document.createElement('div');
+        b.className = 'form-feedback';
+        b.setAttribute('role', 'status');
+        b.style.cssText = [
+          'margin-top: 16px;',
+          'padding: 12px 14px;',
+          'border-radius: 10px;',
+          'font-weight: 700;',
+          'letter-spacing: 0.3px;',
+          'background: rgba(64, 200, 120, 0.18);',
+          'color: #bff5d1'
+        ].join('');
+        form.appendChild(b);
+        return b;
+      })();
+
+      box.textContent = 'THANK YOU! Your message has been sent.';
+    };
+
     
     // Dynamically load enquiry form content
     // (only injects a textarea+message container if missing)
@@ -186,49 +207,61 @@ document.addEventListener('DOMContentLoaded', () => {
     mountDynamicContent();
 
     form.addEventListener('submit', (e) => {
+      let isValid = true;
+
       if (nameInput) {
         const v = nameInput.value.trim();
         if (v.length < 3) {
-          e.preventDefault();
+          isValid = false;
           nameInput.reportValidity();
           showErrorReEnter();
-          return;
         }
       }
 
-      if (emailInput) {
+      if (isValid && emailInput) {
         const v = emailInput.value.trim();
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(v)) {
-          e.preventDefault();
+          isValid = false;
           emailInput.reportValidity();
           showErrorReEnter();
-          return;
         }
       }
 
-      if (phoneInput) {
+      if (isValid && phoneInput) {
         const v = phoneInput.value.trim();
         if (v) {
           const phoneRegex = /^[0-9+()\s-]{7,}$/;
           if (!phoneRegex.test(v)) {
-            e.preventDefault();
+            isValid = false;
             phoneInput.reportValidity();
             showErrorReEnter();
-            return;
           }
         }
       }
 
-      if (messageInput) {
+      if (isValid && messageInput) {
         const v = messageInput.value.trim();
         if (v.length < 10) {
-          e.preventDefault();
+          isValid = false;
           messageInput.reportValidity();
           showErrorReEnter();
-          return;
         }
       }
+
+      if (!isValid) {
+        e.preventDefault();
+        return;
+      }
+
+      // All required inputs are valid -> show success message.
+      // Prevent default briefly so the user sees the confirmation.
+      e.preventDefault();
+      showSuccessSent();
+
+      window.setTimeout(() => {
+        form.submit();
+      }, 600);
     });
 
   }
