@@ -107,6 +107,71 @@ africa-tourism-website/
 ![alt text](image-13.png)
 ![alt text](image-14.png)
 
+## Deploying website
+
+ STEP 1: Build or Prepare Your Website
+
+- Create your website using HTML, CSS, JavaScript, or a framework such as React, Next.js, or Vue.js.
+- Test it locally to ensure everything works correctly.
+
+STEP 2: Choose a Hosting Platform
+Common options include :
+
+- [Netlify](https://www.netlify.com?utm_source=chatgpt.com) (great for static websites)
+- [Vercel](https://vercel.com?utm_source=chatgpt.com) (excellent for Next.js and frontend apps)
+- [GitHub Pages](https://pages.github.com?utm_source=chatgpt.com) (free for static sites)
+- [Cloudflare Pages](https://pages.cloudflare.com?utm_source=chatgpt.com) (fast and free for many projects)
+- [Amazon Web Services (AWS)](https://aws.amazon.com?utm_source=chatgpt.com) (scalable for larger applications)
+
+STEP 3: Register a Domain Name (Optional)
+Purchase a custom domain from providers such as:
+
+- [Namecheap](https://www.namecheap.com?utm_source=chatgpt.com)
+- [GoDaddy](https://www.godaddy.com?utm_source=chatgpt.com)
+- [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/?utm_source=chatgpt.com)
+
+STEP 4: Upload or Connect Your Code
+There are usually two methods:
+
+- Connect a Git repository (e.g., from [GitHub](https://github.com?utm_source=chatgpt.com)).
+- Upload the built website files manually.
+
+STEP 5: Configure Build Settings
+For framework-based websites:
+
+- Specify the build command (e.g., `npm run build`).
+- Specify the output folder (e.g., `dist`, `build`, or `.next`).
+
+STEP 6. Configure Domain and DNS
+If using a custom domain:
+
+- Add the domain in your hosting dashboard.
+- Update DNS records at your domain registrar according to the hosting provider's instructions.
+
+STEP 7. Enable HTTPS
+Most modern hosts provide free SSL certificates automatically, giving your site a secure `https://` URL.
+
+STEP 8: Test the Live Website
+Verify:
+
+* Pages load correctly.
+* Images and assets display properly.
+* Forms and APIs work.
+* Mobile responsiveness.
+
+STEP 9: Set Up Continuous Deployment (Recommended)
+Connect your Git repository so every push to your main branch automatically redeploys the website.
+
+- Example: Deploy a Static Website with Vercel
+1. Push your code to GitHub.
+2. Sign in to [Vercel](https://vercel.com?utm_source=chatgpt.com).
+3. Click **New Project**.
+4. Import your GitHub repository.
+5. Click **Deploy**.
+6. Receive a live URL in a few minutes.
+
+
+
 ## Installation/how to run
 
 ## Dependencies
