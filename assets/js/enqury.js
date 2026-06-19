@@ -174,7 +174,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     // Dynamically load enquiry form content
-    // (only injects a textarea+message container if missing)
     
     const mountDynamicContent = () => {
       if (!form) return;

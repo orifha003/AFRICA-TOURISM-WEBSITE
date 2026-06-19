@@ -39,37 +39,34 @@ TOTAL		            |                                         |10-weeks
 
 ## Structure
 africa-tourism-website/
-|__ assets/
-|   |______css/
-|   |      |___style.css
-|   |______js/
-|   |     |__about.js
-|   |     |__contact.js
-|   |     |__countries.js
-|   |     |__enquiry.js
-|   |     |__script.js
-|   |
-|   |_____ fonts/
-|   |     |____.ttf/
-|   |     |____.woff/
-|   |     |____.woff2/
-|   |__ images/
-|   |__ media/
-|
-|__ pages/
+|____ assets/
+|     |______css/
+|     |      |___style.css
+|     |______js/
+|     |     |__about.js
+|     |     |__contact.js
+|     |     |__countries.js
+|     |     |__enquiry.js
+|     |     |__script.js
+|     |
+|     |_____ fonts/
+|     |     |____.ttf/
+|     |     |____.woff/
+|     |     |____.woff2/
+|     |__ images/
+|     |__ media/
+|____ pages/
 |   |__ zimbabwe.html
 |   |__ south-africa.html
 |   |__botswana.html
 |   |__ lesotho.html
 |   |__ eswatini.html
-|   
 |__services.html  
 |__contact.html 
 |__enquire.html 
 |__ about.html
 |__ index.html
-|
-|__miscellaneous/
+|___miscellaneous/
     |__ README.md
 
 ## respond functionality 
@@ -154,10 +151,10 @@ Most modern hosts provide free SSL certificates automatically, giving your site 
 STEP 8: Test the Live Website
 Verify:
 
-* Pages load correctly.
-* Images and assets display properly.
-* Forms and APIs work.
-* Mobile responsiveness.
+- Pages load correctly.
+- Images and assets display properly.
+- Forms and APIs work.
+- Mobile responsiveness.
 
 STEP 9: Set Up Continuous Deployment (Recommended)
 Connect your Git repository so every push to your main branch automatically redeploys the website.
