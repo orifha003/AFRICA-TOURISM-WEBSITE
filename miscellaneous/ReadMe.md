@@ -1,6 +1,4 @@
-## Student infomation 
-- student number ---> ST10512842
-- student name ----> Ms MULOVHEDZI ORIFHA VHUTALI
+
 
 ## Website description
 ORGANISATION OVERVIEW:
